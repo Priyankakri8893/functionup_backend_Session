@@ -1,0 +1,1488 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://medium.com/@nicknauert/mongooses-model-populate-b844ae6d1ee7
+Subject: =?utf-8?Q?Mongoose=E2=80=99s=20Model.Populate().=20A=20Tutorial=20We=20Ne?=
+ =?utf-8?Q?wbs=20Can=20Understand=20|=20by=20Nick=20Nauert=20|=20Medium?=
+Date: Tue, 2 May 2023 05:55:34 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----"
+
+
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/html
+Content-ID: <frame-F7FB26105556D9460CF90F0454B24940@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://medium.com/@nicknauert/mongooses-model-populate-b844ae6d1ee7
+
+<!DOCTYPE html><html lang="en" data-rh="lang"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-7d07d8a0-5e36-4525-a574-2a0b6b1d723a@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-dbb861db-9c13-4634-a89d-183fcfac40b9@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-ea66738d-09a1-43f1-bf98-24c5235b0c02@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-0940824f-b66d-4305-aa53-1c839213761e@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-c37adb1e-c827-4012-9618-d2cf8e62d87b@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-9eed9982-11bb-420f-b6e1-02626d0ab557@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-779b7e8d-a172-4e8d-8c5c-e90c48cc48e4@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-85f2452a-4661-468a-adb4-08ef4f6f8d5b@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-b74345fb-4af4-493c-be4b-aaf857513543@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-fdcc97cb-754b-4285-8090-f963b39e7f93@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-002ea4f5-8978-4016-ae24-6bf7c2df6fa4@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-554176b2-3de0-4eb0-8d39-14e5ac5b2d8a@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-50dc686e-6adf-4e6d-be59-c21c899a7c28@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-88672ec7-8cbf-44ac-8f3d-c24849a53e9d@mhtml.blink" /><title>Mongooseâ€™s Model.Populate(). A Tutorial We Newbs Can Understand | by Nick Nauert | Medium</title><meta data-rh="true" name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1"><meta data-rh="true" name="theme-color" content="#000000"><meta data-rh="true" name="twitter:app:name:iphone" content="Medium"><meta data-rh="true" name="twitter:app:id:iphone" content="828256236"><meta data-rh="true" property="al:ios:app_name" content="Medium"><meta data-rh="true" property="al:ios:app_store_id" content="828256236"><meta data-rh="true" property="al:android:package" content="com.medium.reader"><meta data-rh="true" property="fb:app_id" content="542599432471018"><meta data-rh="true" property="og:site_name" content="Medium"><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2017-09-03T14:25:25.355Z"><meta data-rh="true" name="title" content="Mongooseâ€™s Model.Populate(). A Tutorial We Newbs Can Understand | by Nick Nauert | Medium"><meta data-rh="true" property="og:title" content="Mongooseâ€™s Model.Populate()"><meta data-rh="true" property="al:android:url" content="medium://p/b844ae6d1ee7"><meta data-rh="true" property="al:ios:url" content="medium://p/b844ae6d1ee7"><meta data-rh="true" property="al:android:app_name" content="Medium"><meta data-rh="true" name="description" content="If youâ€™ve looked at any of my few posts, you know Iâ€™m a junior programmer in training. If you havenâ€™t looked at any of my posts, Iâ€™m a junior programmer in training. Iâ€™m attending The Iron Yardâ€¦"><meta data-rh="true" property="og:description" content="A Tutorial We Newbs Can Understand"><meta data-rh="true" property="og:url" content="https://medium.com/@nicknauert/mongooses-model-populate-b844ae6d1ee7"><meta data-rh="true" property="al:web:url" content="https://medium.com/@nicknauert/mongooses-model-populate-b844ae6d1ee7"><meta data-rh="true" property="og:image" content="https://miro.medium.com/v2/resize:fit:1200/1*WpFxuBpMV9Qki4399SEV4A.jpeg"><meta data-rh="true" property="article:author" content="https://medium.com/@nicknauert"><meta data-rh="true" name="author" content="Nick Nauert"><meta data-rh="true" name="robots" content="index,follow,max-image-preview:large"><meta data-rh="true" name="referrer" content="unsafe-url"><meta data-rh="true" property="twitter:title" content="Mongooseâ€™s Model.Populate()"><meta data-rh="true" name="twitter:site" content="@Medium"><meta data-rh="true" name="twitter:app:url:iphone" content="medium://p/b844ae6d1ee7"><meta data-rh="true" property="twitter:description" content="A Tutorial We Newbs Can Understand"><meta data-rh="true" name="twitter:image:src" content="https://miro.medium.com/v2/resize:fit:1200/1*WpFxuBpMV9Qki4399SEV4A.jpeg"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" name="twitter:label1" content="Reading time"><meta data-rh="true" name="twitter:data1" content="4 min read"><meta data-rh="true" name="twitter:tile:template:testing" content="2"><meta data-rh="true" name="twitter:tile:image" content="https://miro.medium.com/v2/resize:fit:1200/1*WpFxuBpMV9Qki4399SEV4A.jpeg"><meta data-rh="true" name="twitter:tile:info1:icon" content="Person"><meta data-rh="true" name="twitter:tile:info1:text" content="Nick Nauert"><meta data-rh="true" name="twitter:tile:info2:icon" content="Calendar"><meta data-rh="true" name="twitter:tile:info2:text" content="Sep 3, 2017"><meta data-rh="true" name="twitter:cta" content="Read on Medium"><link data-rh="true" rel="icon" href="https://miro.medium.com/v2/1*m-R_BkNf1Qjr1YbyOIJY2w.png"><link data-rh="true" rel="search" type="application/opensearchdescription+xml" title="Medium" href="https://medium.com/osd.xml"><link data-rh="true" rel="apple-touch-icon" sizes="152x152" href="https://miro.medium.com/v2/resize:fill:152:152/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"><link data-rh="true" rel="apple-touch-icon" sizes="120x120" href="https://miro.medium.com/v2/resize:fill:120:120/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"><link data-rh="true" rel="apple-touch-icon" sizes="76x76" href="https://miro.medium.com/v2/resize:fill:76:76/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"><link data-rh="true" rel="apple-touch-icon" sizes="60x60" href="https://miro.medium.com/v2/resize:fill:60:60/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"><link data-rh="true" rel="mask-icon" href="https://cdn-static-1.medium.com/_/fp/icons/Medium-Avatar-500x500.svg" color="#171717"><link data-rh="true" rel="preconnect" href="https://glyph.medium.com/" crossorigin=""><link data-rh="true" id="glyph_preload_link" rel="preload" as="style" type="text/css" href="https://glyph.medium.com/css/unbound.css"><link data-rh="true" id="glyph_link" rel="stylesheet" type="text/css" href="https://glyph.medium.com/css/unbound.css"><link data-rh="true" rel="author" href="https://medium.com/@nicknauert"><link data-rh="true" rel="canonical" href="https://medium.com/@nicknauert/mongooses-model-populate-b844ae6d1ee7"><link data-rh="true" rel="alternate" href="android-app://com.medium.reader/https/medium.com/p/b844ae6d1ee7"></head><body><div id="root"><div class="a b c"><div class="d e f g h i j k"></div><div></div><div class="l c"><div class="l m n o c" style="transform: translateY(0px);"><div class="p q r s t u v w x i d y z"><a class="fv ag fd be ak b am an ao ap aq ar as at s u j i d q di z" href="https://rsci.app.link/?%24canonical_url=https%3A%2F%2Fmedium.com%2Fp%2Fb844ae6d1ee7&amp;%7Efeature=LoOpenInAppButton&amp;%7Echannel=ShowPostUnderUser&amp;source=---two_column_layout_nav----------------------------------" rel="noopener follow">Open in app<svg width="10" height="10" viewBox="0 0 10 10" fill="none" class="nz"><path d="M.98 8.48a.37.37 0 1 0 .54.54l-.54-.54zm7.77-7.23h.38c0-.2-.17-.38-.38-.38v.38zM8.37 6.5a.37.37 0 1 0 .76 0h-.76zM3.5.87a.37.37 0 1 0 0 .76V.88zM1.52 9.03l7.5-7.5-.54-.54-7.5 7.5.54.54zm6.86-7.77V6.5h.74V1.25h-.74zm-4.88.38h5.25V.88H3.5v.74z" fill="currentColor"></path></svg></a><div class="ab q"><p class="be b rf ju rg jy rh ri rj rk rl rm fv"><span><button class="be b rf ju rn rg jy ro rh ri rp rj rk rq rl rm rr fe fg fh fi fj fk fl fm fn fo fp fq fr fs df bl ft">Sign up</button></span></p><div class="aw l"><p class="be b rf ju rg jy rh ri rj rk rl rm fv"><span><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40nicknauert%2Fmongooses-model-populate-b844ae6d1ee7&amp;source=post_page---two_column_layout_nav-----------------------global_nav-----------">Sign In</a></span></p></div></div></div><div class="p q r ab ac"><div class="ab q ae"><a class="af ag ah ai aj ak al am an ao ap aq ar as at ab" aria-label="Homepage" rel="noopener follow" href="https://medium.com/?source=---two_column_layout_nav----------------------------------"><svg viewBox="0 0 1043.63 592.71" class="au av"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"></path></g></g></svg></a><div class="aw h"><div class="ab ax ay az ba q bb bc"><div class="bl" aria-hidden="false" aria-describedby="searchResults" aria-labelledby="searchResults"></div><div class="bm bn ab"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.1 11.06a6.95 6.95 0 1 1 13.9 0 6.95 6.95 0 0 1-13.9 0zm6.94-8.05a8.05 8.05 0 1 0 5.13 14.26l3.75 3.75a.56.56 0 1 0 .8-.79l-3.74-3.73A8.05 8.05 0 0 0 11.04 3v.01z" fill="currentColor"></path></svg></div><input role="combobox" aria-controls="searchResults" aria-expanded="false" aria-label="search" tabindex="0" class="ax bd be bf z bg bh bi bj bk" placeholder="Search Medium" value=""></div></div></div><div class="h k w fx fy"><div class="rs ab"><span><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/m/signin?operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2Fnew-story&amp;source=---two_column_layout_nav-----------------------new_post_sidenav-----------"><div class="be b bf z fv dj mj ab q rt ru"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-label="Write"><path d="M14 4a.5.5 0 0 0 0-1v1zm7 6a.5.5 0 0 0-1 0h1zm-7-7H4v1h10V3zM3 4v16h1V4H3zm1 17h16v-1H4v1zm17-1V10h-1v10h1zm-1 1a1 1 0 0 0 1-1h-1v1zM3 20a1 1 0 0 0 1 1v-1H3zM4 3a1 1 0 0 0-1 1h1V3z" fill="currentColor"></path><path d="M17.5 4.5l-8.46 8.46a.25.25 0 0 0-.06.1l-.82 2.47c-.07.2.12.38.31.31l2.47-.82a.25.25 0 0 0 .1-.06L19.5 6.5m-2-2l2.32-2.32c.1-.1.26-.1.36 0l1.64 1.64c.1.1.1.26 0 .36L19.5 6.5m-2-2l2 2" stroke="currentColor"></path></svg><div class="nz l">Write</div></div></a></span></div></div><div class="k j i d"><div class="rs ab"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/search?source=---two_column_layout_nav----------------------------------"><div class="be b bf z fv dj mj ab q rt ru"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-label="Search"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.1 11.06a6.95 6.95 0 1 1 13.9 0 6.95 6.95 0 0 1-13.9 0zm6.94-8.05a8.05 8.05 0 1 0 5.13 14.26l3.75 3.75a.56.56 0 1 0 .8-.79l-3.74-3.73A8.05 8.05 0 0 0 11.04 3v.01z" fill="currentColor"></path></svg></div></a></div></div><div class="rs h k j"><div class="ab q"><p class="be b rf ju rg jy rh ri rj rk rl rm fv"><span><button class="be b rf ju rn rg jy ro rh ri rp rj rk rq rl rm rr fe fg fh fi fj fk fl fm fn fo fp fq fr fs df bl ft">Sign up</button></span></p><div class="aw l"><p class="be b rf ju rg jy rh ri rj rk rl rm fv"><span><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fmedium.com%2F%40nicknauert%2Fmongooses-model-populate-b844ae6d1ee7&amp;source=post_page---two_column_layout_nav-----------------------global_nav-----------">Sign In</a></span></p></div></div></div><div class="l" aria-hidden="false"><button class="ax rv am ab q ao rw rx ry" aria-label="user options menu"><div class="l dj"><img alt="" class="l df bx by bz ev" src="https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png" width="32" height="32" loading="lazy" role="presentation"><div class="eq bx l by bz et n ax eu"></div></div><svg width="12px" height="12px" viewBox="0 0 15 15"><path d="M3.85 5.15a.5.5 0 0 0-.7.7l4.35 4.36 4.35-4.36a.5.5 0 1 0-.7-.7L7.5 8.79 3.85 5.15z" fill-rule="evenodd"></path></svg></button></div></div></div><div class="ca cb l"><div class="ab cc cd"><main class="ce cf cg ch ci cj l ck"><div class="l"><div class="dk dl dm dn do l"><div class="ab cm"><div class="dp bg dq dr ds dt"><article><div class="l"><div class="du dv dw dx dy dz ea bg eb df l"></div><div class="l"><header class="pw-post-byline-header ec ed ee ef eg eh ei ej ek el l"><div class="ab em eo"><div class="ab"><div class="ep l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/@nicknauert?source=post_page-----b844ae6d1ee7--------------------------------"><div class="l dj"><img alt="Nick Nauert" class="l df bx er es ev" src="https://miro.medium.com/v2/resize:fill:96:96/2*ZVXOu-DrSscIuko3_8FztA.jpeg" width="48" height="48" loading="lazy"><div class="eq bx l er es et n ax eu"></div></div></a></div><div class="l"><div class="pw-author be b ew ex bj"><div class="ey ab q"><div><div class="bl" aria-hidden="false" aria-describedby="73" aria-labelledby="73"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/@nicknauert?source=post_page-----b844ae6d1ee7--------------------------------"><div class="ab q">Nick Nauert</div></a></div></div><div class="ez fa fb fc i d"><span><button class="be b fd z fe ff fg fh fi fj fk fl fm fn fo fp fq fr fs df bl ft">Follow</button></span></div></div></div><div class="ab q fu"><p class="pw-published-date be b bf z fv"><span>Sep 3, 2017</span></p><div class="fw bl" aria-hidden="true"><span class="l" aria-hidden="true"><span class="be b bf z fv">Â·</span></span></div><div class="pw-reading-time be b bf z fv">4 min read</div></div></div></div><div class="h k w fx fy q"><div class="fz l ga"><div><div class="bl" aria-hidden="false" aria-describedby="74" aria-labelledby="74"><button class="af ag ah ai aj ak al am an ao ap aq ar as at" aria-label="Share on twitter"><span class="bl gb gc gd"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 5.34c-.67.41-1.4.7-2.18.87a3.45 3.45 0 0 0-5.02-.1 3.49 3.49 0 0 0-1.02 2.47c0 .28.03.54.07.8a9.91 9.91 0 0 1-7.17-3.66 3.9 3.9 0 0 0-.5 1.74 3.6 3.6 0 0 0 1.56 2.92 3.36 3.36 0 0 1-1.55-.44V10c0 1.67 1.2 3.08 2.8 3.42-.3.06-.6.1-.94.12l-.62-.06a3.5 3.5 0 0 0 3.24 2.43 7.34 7.34 0 0 1-4.36 1.49l-.81-.05a9.96 9.96 0 0 0 5.36 1.56c6.4 0 9.91-5.32 9.9-9.9v-.5c.69-.49 1.28-1.1 1.74-1.81-.63.3-1.3.48-2 .56A3.33 3.33 0 0 0 20 5.33" fill="#A8A8A8"></path></svg></span></button></div></div></div><div class="fz l ga"><div><div class="bl" aria-hidden="false" aria-describedby="75" aria-labelledby="75"><button class="af ag ah ai aj ak al am an ao ap aq ar as at" aria-label="Share on facebook"><span class="bl gb gc gd"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19.75 12.04c0-4.3-3.47-7.79-7.75-7.79a7.77 7.77 0 0 0-5.9 12.84 7.77 7.77 0 0 0 4.69 2.63v-5.49h-1.9v-2.2h1.9v-1.62c0-1.88 1.14-2.9 2.8-2.9.8 0 1.49.06 1.69.08v1.97h-1.15c-.91 0-1.1.43-1.1 1.07v1.4h2.17l-.28 2.2h-1.88v5.52a7.77 7.77 0 0 0 6.7-7.71" fill="#A8A8A8"></path></svg></span></button></div></div></div><div class="fz l ga"><div><div class="bl" aria-hidden="false" aria-describedby="76" aria-labelledby="76"><button class="af ag ah ai aj ak al am an ao ap aq ar as at" aria-label="Share on linkedin"><span class="bl gb gc gd"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19.75 5.39v13.22a1.14 1.14 0 0 1-1.14 1.14H5.39a1.14 1.14 0 0 1-1.14-1.14V5.39a1.14 1.14 0 0 1 1.14-1.14h13.22a1.14 1.14 0 0 1 1.14 1.14zM8.81 10.18H6.53v7.3H8.8v-7.3zM9 7.67a1.31 1.31 0 0 0-1.3-1.32h-.04a1.32 1.32 0 0 0 0 2.64A1.31 1.31 0 0 0 9 7.71v-.04zm8.46 5.37c0-2.2-1.4-3.05-2.78-3.05a2.6 2.6 0 0 0-2.3 1.18h-.07v-1h-2.14v7.3h2.28V13.6a1.51 1.51 0 0 1 1.36-1.63h.09c.72 0 1.26.45 1.26 1.6v3.91h2.28l.02-4.43z" fill="#A8A8A8"></path></svg></span></button></div></div></div><div class="l ga"><div><div class="bl" aria-hidden="false" aria-describedby="77" aria-labelledby="77"><button class="af ag ah ai aj ak al am an ao ap aq ar as at"><span class="bl gb gc gd"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.57 14.67c0-.57.13-1.11.38-1.6l.02-.02v-.02l.02-.02c0-.02 0-.02.02-.02.12-.26.3-.52.57-.8L7.78 9v-.02l.01-.02c.44-.41.91-.7 1.44-.85a4.87 4.87 0 0 0-1.19 2.36A5.04 5.04 0 0 0 8 11.6L6.04 13.6c-.19.19-.32.4-.38.65a2 2 0 0 0 0 .9c.08.2.2.4.38.57l1.29 1.31c.27.28.62.42 1.03.42.42 0 .78-.14 1.06-.42l1.23-1.25.79-.78 1.15-1.16c.08-.09.19-.22.28-.4.1-.2.15-.42.15-.67 0-.16-.02-.3-.06-.45l-.02-.02v-.02l-.07-.14s0-.03-.04-.06l-.06-.13-.02-.02c0-.02 0-.03-.02-.05a.6.6 0 0 0-.14-.16l-.48-.5c0-.04.02-.1.04-.15l.06-.12 1.17-1.14.09-.09.56.57c.02.04.08.1.16.18l.05.04.03.06.04.05.03.04.04.06.1.14.02.02c0 .02.01.03.03.04l.1.2v.02c.1.16.2.38.3.68a1 1 0 0 1 .04.25 3.2 3.2 0 0 1 .02 1.33 3.49 3.49 0 0 1-.95 1.87l-.66.67-.97.97-1.56 1.57a3.4 3.4 0 0 1-2.47 1.02c-.97 0-1.8-.34-2.49-1.03l-1.3-1.3a3.55 3.55 0 0 1-1-2.51v-.01h-.02v.02zm5.39-3.43c0-.19.02-.4.07-.63.13-.74.44-1.37.95-1.87l.66-.67.97-.98 1.56-1.56c.68-.69 1.5-1.03 2.47-1.03.97 0 1.8.34 2.48 1.02l1.3 1.32a3.48 3.48 0 0 1 1 2.48c0 .58-.11 1.11-.37 1.6l-.02.02v.02l-.02.04c-.14.27-.35.54-.6.8L16.23 15l-.01.02-.01.02c-.44.42-.92.7-1.43.83a4.55 4.55 0 0 0 1.23-3.52L18 10.38c.18-.21.3-.42.35-.65a2.03 2.03 0 0 0-.01-.9 1.96 1.96 0 0 0-.36-.58l-1.3-1.3a1.49 1.49 0 0 0-1.06-.42c-.42 0-.77.14-1.06.4l-1.2 1.27-.8.8-1.16 1.15c-.08.08-.18.21-.29.4a1.66 1.66 0 0 0-.08 1.12l.02.03v.02l.06.14s.01.03.05.06l.06.13.02.02.01.02.01.02c.05.08.1.13.14.16l.47.5c0 .04-.02.09-.04.15l-.06.12-1.15 1.15-.1.08-.56-.56a2.3 2.3 0 0 0-.18-.19c-.02-.01-.02-.03-.02-.04l-.02-.02a.37.37 0 0 1-.1-.12c-.03-.03-.05-.04-.05-.06l-.1-.15-.02-.02-.02-.04-.08-.17v-.02a5.1 5.1 0 0 1-.28-.69 1.03 1.03 0 0 1-.04-.26c-.06-.23-.1-.46-.1-.7v.01z" fill="#A8A8A8"></path></svg></span></button></div></div></div><div class="ge ab q"><div><div class="bl" aria-hidden="false" aria-describedby="78" aria-labelledby="78"><span><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb844ae6d1ee7&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2F%40nicknauert%2Fmongooses-model-populate-b844ae6d1ee7&amp;source=--------------------------bookmark_header-----------"><button aria-controls="addToCatalogBookmarkButton" aria-expanded="false" aria-label="Add to list bookmark button" class="af mj ah ai aj ak al gb an ao ap fn sa sb sc"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="rz" aria-label="Add to list bookmark button"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg></button></a></span></div></div></div><div><div class="bl" aria-hidden="false" aria-describedby="79" aria-labelledby="79"></div></div></div></div><div class="gf s u j i d"><div class="ep l"><div><div class="bl" aria-hidden="false" aria-describedby="80" aria-labelledby="80"><span><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb844ae6d1ee7&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2F%40nicknauert%2Fmongooses-model-populate-b844ae6d1ee7&amp;source=--------------------------bookmark_header-----------"><button aria-controls="addToCatalogBookmarkButton" aria-expanded="false" aria-label="Add to list bookmark button" class="af mj ah gi aj ak al sd an ao ap fn fq ab q se sf sc"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="rz" aria-label="Add to list bookmark button"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg><p class="be b bf z fv">Save</p></button></a></span></div></div></div><div class="gg l ga"><div><div class="bl" aria-hidden="false" aria-describedby="81" aria-labelledby="81"><button class="af ag ah ai aj ak al am an ao ap aq ar as at" aria-label="Share on twitter"><span class="bl gb gc gd"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 5.34c-.67.41-1.4.7-2.18.87a3.45 3.45 0 0 0-5.02-.1 3.49 3.49 0 0 0-1.02 2.47c0 .28.03.54.07.8a9.91 9.91 0 0 1-7.17-3.66 3.9 3.9 0 0 0-.5 1.74 3.6 3.6 0 0 0 1.56 2.92 3.36 3.36 0 0 1-1.55-.44V10c0 1.67 1.2 3.08 2.8 3.42-.3.06-.6.1-.94.12l-.62-.06a3.5 3.5 0 0 0 3.24 2.43 7.34 7.34 0 0 1-4.36 1.49l-.81-.05a9.96 9.96 0 0 0 5.36 1.56c6.4 0 9.91-5.32 9.9-9.9v-.5c.69-.49 1.28-1.1 1.74-1.81-.63.3-1.3.48-2 .56A3.33 3.33 0 0 0 20 5.33" fill="#A8A8A8"></path></svg></span></button></div></div></div><div class="gg l ga"><div><div class="bl" aria-hidden="false" aria-describedby="82" aria-labelledby="82"><button class="af ag ah ai aj ak al am an ao ap aq ar as at" aria-label="Share on facebook"><span class="bl gb gc gd"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19.75 12.04c0-4.3-3.47-7.79-7.75-7.79a7.77 7.77 0 0 0-5.9 12.84 7.77 7.77 0 0 0 4.69 2.63v-5.49h-1.9v-2.2h1.9v-1.62c0-1.88 1.14-2.9 2.8-2.9.8 0 1.49.06 1.69.08v1.97h-1.15c-.91 0-1.1.43-1.1 1.07v1.4h2.17l-.28 2.2h-1.88v5.52a7.77 7.77 0 0 0 6.7-7.71" fill="#A8A8A8"></path></svg></span></button></div></div></div><div class="gg l ga"><div><div class="bl" aria-hidden="false" aria-describedby="83" aria-labelledby="83"><button class="af ag ah ai aj ak al am an ao ap aq ar as at" aria-label="Share on linkedin"><span class="bl gb gc gd"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19.75 5.39v13.22a1.14 1.14 0 0 1-1.14 1.14H5.39a1.14 1.14 0 0 1-1.14-1.14V5.39a1.14 1.14 0 0 1 1.14-1.14h13.22a1.14 1.14 0 0 1 1.14 1.14zM8.81 10.18H6.53v7.3H8.8v-7.3zM9 7.67a1.31 1.31 0 0 0-1.3-1.32h-.04a1.32 1.32 0 0 0 0 2.64A1.31 1.31 0 0 0 9 7.71v-.04zm8.46 5.37c0-2.2-1.4-3.05-2.78-3.05a2.6 2.6 0 0 0-2.3 1.18h-.07v-1h-2.14v7.3h2.28V13.6a1.51 1.51 0 0 1 1.36-1.63h.09c.72 0 1.26.45 1.26 1.6v3.91h2.28l.02-4.43z" fill="#A8A8A8"></path></svg></span></button></div></div></div><div class="l ga"><div><div class="bl" aria-hidden="false" aria-describedby="84" aria-labelledby="84"><button class="af ag ah ai aj ak al am an ao ap aq ar as at"><span class="bl gb gc gd"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.57 14.67c0-.57.13-1.11.38-1.6l.02-.02v-.02l.02-.02c0-.02 0-.02.02-.02.12-.26.3-.52.57-.8L7.78 9v-.02l.01-.02c.44-.41.91-.7 1.44-.85a4.87 4.87 0 0 0-1.19 2.36A5.04 5.04 0 0 0 8 11.6L6.04 13.6c-.19.19-.32.4-.38.65a2 2 0 0 0 0 .9c.08.2.2.4.38.57l1.29 1.31c.27.28.62.42 1.03.42.42 0 .78-.14 1.06-.42l1.23-1.25.79-.78 1.15-1.16c.08-.09.19-.22.28-.4.1-.2.15-.42.15-.67 0-.16-.02-.3-.06-.45l-.02-.02v-.02l-.07-.14s0-.03-.04-.06l-.06-.13-.02-.02c0-.02 0-.03-.02-.05a.6.6 0 0 0-.14-.16l-.48-.5c0-.04.02-.1.04-.15l.06-.12 1.17-1.14.09-.09.56.57c.02.04.08.1.16.18l.05.04.03.06.04.05.03.04.04.06.1.14.02.02c0 .02.01.03.03.04l.1.2v.02c.1.16.2.38.3.68a1 1 0 0 1 .04.25 3.2 3.2 0 0 1 .02 1.33 3.49 3.49 0 0 1-.95 1.87l-.66.67-.97.97-1.56 1.57a3.4 3.4 0 0 1-2.47 1.02c-.97 0-1.8-.34-2.49-1.03l-1.3-1.3a3.55 3.55 0 0 1-1-2.51v-.01h-.02v.02zm5.39-3.43c0-.19.02-.4.07-.63.13-.74.44-1.37.95-1.87l.66-.67.97-.98 1.56-1.56c.68-.69 1.5-1.03 2.47-1.03.97 0 1.8.34 2.48 1.02l1.3 1.32a3.48 3.48 0 0 1 1 2.48c0 .58-.11 1.11-.37 1.6l-.02.02v.02l-.02.04c-.14.27-.35.54-.6.8L16.23 15l-.01.02-.01.02c-.44.42-.92.7-1.43.83a4.55 4.55 0 0 0 1.23-3.52L18 10.38c.18-.21.3-.42.35-.65a2.03 2.03 0 0 0-.01-.9 1.96 1.96 0 0 0-.36-.58l-1.3-1.3a1.49 1.49 0 0 0-1.06-.42c-.42 0-.77.14-1.06.4l-1.2 1.27-.8.8-1.16 1.15c-.08.08-.18.21-.29.4a1.66 1.66 0 0 0-.08 1.12l.02.03v.02l.06.14s.01.03.05.06l.06.13.02.02.01.02.01.02c.05.08.1.13.14.16l.47.5c0 .04-.02.09-.04.15l-.06.12-1.15 1.15-.1.08-.56-.56a2.3 2.3 0 0 0-.18-.19c-.02-.01-.02-.03-.02-.04l-.02-.02a.37.37 0 0 1-.1-.12c-.03-.03-.05-.04-.05-.06l-.1-.15-.02-.02-.02-.04-.08-.17v-.02a5.1 5.1 0 0 1-.28-.69 1.03 1.03 0 0 1-.04-.26c-.06-.23-.1-.46-.1-.7v.01z" fill="#A8A8A8"></path></svg></span></button></div></div></div><div class="bm l"><div><div class="bl" aria-hidden="false" aria-describedby="85" aria-labelledby="85"></div></div></div></div></header><span class="l"></span><section><div><div class="et gm gn go gp gq"></div><div class="gr gs gt gu gv"><div class=""><h1 id="da63" class="pw-post-title gw gx gy be gz ha hb hc hd he hf hg bj" data-selectable-paragraph="">Mongooseâ€™s Model.Populate()</h1></div><div class=""><h2 id="fdc5" class="pw-subtitle-paragraph hh hi gy be b hj hk hl hm hn ho hp hq hr hs ht hu hv hw hx hy hz fv" data-selectable-paragraph="">A Tutorial We Newbs Can Understand</h2></div><p id="0003" class="pw-post-body-paragraph ia ib gy ic b id ie hm if ig ih hp ii ij ik il im in io ip iq ir is it iu iv gr bj" data-selectable-paragraph="">If youâ€™ve looked at any of my few posts, you know Iâ€™m a junior programmer in training. If you havenâ€™t looked at any of my posts, Iâ€™m a junior programmer in training. Iâ€™m attending The Iron Yard Charleston, and weâ€™re about neck deep in learning about databases, and getting deeper. The rising of the tide is made worse by certain technical documentation not always being super friendly to newbs like myself. Iâ€™m looking at you, Mongoose. You beautiful, opaque thing you.</p><figure class="ix iy iz ja el jb dz ea paragraph-image"><div class="dz ea iw"><picture><source srcset="https://miro.medium.com/v2/resize:fit:640/format:webp/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 640w, https://miro.medium.com/v2/resize:fit:720/format:webp/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 720w, https://miro.medium.com/v2/resize:fit:750/format:webp/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 750w, https://miro.medium.com/v2/resize:fit:786/format:webp/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 786w, https://miro.medium.com/v2/resize:fit:828/format:webp/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 828w, https://miro.medium.com/v2/resize:fit:1100/format:webp/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 1100w, https://miro.medium.com/v2/resize:fit:612/format:webp/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 612w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 306px" type="image/webp"><source data-testid="og" srcset="https://miro.medium.com/v2/resize:fit:640/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 640w, https://miro.medium.com/v2/resize:fit:720/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 720w, https://miro.medium.com/v2/resize:fit:750/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 750w, https://miro.medium.com/v2/resize:fit:786/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 786w, https://miro.medium.com/v2/resize:fit:828/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 828w, https://miro.medium.com/v2/resize:fit:1100/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 1100w, https://miro.medium.com/v2/resize:fit:612/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg 612w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 306px"><img alt="" class="bg jc jd c" width="306" height="375" loading="lazy" role="presentation" src="https://miro.medium.com/v2/resize:fit:612/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg"></picture></div><figcaption class="je jf eb dz ea jg jh be b bf z fv" data-selectable-paragraph="">Did you read the documentationnnnssss?</figcaption></figure><p id="4ecf" class="pw-post-body-paragraph ia ib gy ic b id ie hm if ig ih hp ii ij ik il im in io ip iq ir is it iu iv gr bj" data-selectable-paragraph="">My latest issue was with using multiple collections for a social media-esque site. One collection for users, and one for posts. In my research before doing any coding, I stumbled upon Model.populate(), a Mongoose method that you can use to essentially link documents across collections. This allows you to have a schema for each of them, and generally keep things all nice and tidy.</p><p id="9260" class="pw-post-body-paragraph ia ib gy ic b id ie hm if ig ih hp ii ij ik il im in io ip iq ir is it iu iv gr bj" data-selectable-paragraph="">It should have been easy, and honestly, it is! But most tutorials I read on it left out one tiny little step that cause me about five hours of wasted time. This is almost certainly due to my inexperience, so Iâ€™m going to go through the very simple baby-steps in hopes of helping another fledgling coder like me avoid wasted hours.</p></div><div class="ab cm ji jj gf jk" role="separator"><span class="jl bx bl jm jn jo"></span><span class="jl bx bl jm jn jo"></span><span class="jl bx bl jm jn"></span></div><div class="gr gs gt gu gv"><h2 id="8fb3" class="jp jq gy be jr js jt ju jv jw jx jy jz ij ka kb kc in kd ke kf ir kg kh ki kj bj" data-selectable-paragraph="">Step 1: Make your schemas</h2><p id="6350" class="pw-post-body-paragraph ia ib gy ic b id kk hm if ig kl hp ii ij km il im in kn ip iq ir ko it iu iv gr bj" data-selectable-paragraph="">You need a schema for each collection. One for the users, and one for the posts those users are going to make.</p><pre class="ix iy iz ja el kp kq kr ks ax kt bj"><span id="bf14" class="jp jq gy kq b ew ku kv l kw kx" data-selectable-paragraph="">const UserSchema = new mongoose.Schema({<br>    username: String,<br>    posts: [{<br>      type: mongoose.Schema.Types.ObjectId,<br>      ref: 'Post'<br>    }]<br>  })</span><span id="8e51" class="jp jq gy kq b ew ky kv l kw kx" data-selectable-paragraph="">const PostSchema = new mongoose.Schema({<br>    content: String,<br>    author: {<br>      type: mongoose.Schema.Types.ObjectId,<br>      ref: 'User'<br>    }<br>  })</span><span id="0854" class="jp jq gy kq b ew ky kv l kw kx" data-selectable-paragraph="">const Post = mongoose.model('Post', PostSchema, 'posts');<br>  const User = mongoose.model('User', UserSchema, 'users');</span><span id="64a6" class="jp jq gy kq b ew ky kv l kw kx" data-selectable-paragraph="">module.exports = {<br>    User, Post,<br>  }</span></pre><p id="ded2" class="pw-post-body-paragraph ia ib gy ic b id ie hm if ig ih hp ii ij ik il im in io ip iq ir is it iu iv gr bj" data-selectable-paragraph="">The properties that we want to use .populate() on are properties that have a type of <em class="kz">mongoose.Schema.Types.ObjectId. </em>This tells Mongoose â€œHey, Iâ€™m gonna be referencing other documents from other collectionsâ€. The next part of that property is the ref. The ref tells Mongoose â€œThose docs are going to be in the ___ collection.â€</p><p id="77dc" class="pw-post-body-paragraph ia ib gy ic b id ie hm if ig ih hp ii ij ik il im in io ip iq ir is it iu iv gr bj" data-selectable-paragraph="">So in our User schema, we reference the Post collection, because we want the user to be tied to the things they post, and we want to be able to easily access those posts without having to create more queries.</p><p id="53f3" class="pw-post-body-paragraph ia ib gy ic b id ie hm if ig ih hp ii ij ik il im in io ip iq ir is it iu iv gr bj" data-selectable-paragraph="">And with that, our schemas are set.</p><h2 id="d667" class="jp jq gy be jr js jt ju jv jw jx jy jz ij ka kb kc in kd ke kf ir kg kh ki kj bj" data-selectable-paragraph="">Step 2: Correctly Creating Users And Posts</h2><p id="cdc2" class="pw-post-body-paragraph ia ib gy ic b id kk hm if ig kl hp ii ij km il im in kn ip iq ir ko it iu iv gr bj" data-selectable-paragraph="">For the docs to properly connect when you populate later on, you need to understand the one, super simple thing that no one ever explicitly stated while I was scouring the internet for help on this. After linking other collections in your schema using the appropriate <em class="kz">type</em> and <em class="kz">ref</em>, your <em class="kz">actual stored data </em>for that property will be <em class="kz">another documentâ€™s _id. </em>It will be stored as a string. This also works for an array of _ids.</p><p id="a420" class="pw-post-body-paragraph ia ib gy ic b id ie hm if ig ih hp ii ij ik il im in io ip iq ir is it iu iv gr bj" data-selectable-paragraph="">So while your schema says this:</p><pre class="ix iy iz ja el kp kq kr ks ax kt bj"><span id="16ec" class="jp jq gy kq b ew ku kv l kw kx" data-selectable-paragraph="">const UserSchema = new mongoose.Schema({<br>    username: String,<br>    posts: [{<br>      type: mongoose.Schema.Types.ObjectId,<br>      ref: 'Post'<br>    }]<br>  })</span></pre><p id="d45c" class="pw-post-body-paragraph ia ib gy ic b id ie hm if ig ih hp ii ij ik il im in io ip iq ir is it iu iv gr bj" data-selectable-paragraph="">Your actual stored property should read something like this:</p><pre class="ix iy iz ja el kp kq kr ks ax kt bj"><span id="ef8f" class="jp jq gy kq b ew ku kv l kw kx" data-selectable-paragraph="">{<br>  _id: 59ab1c92ea84486fb4ba9f28,<br>  username: JD,<br>  posts: [<br>    "59ab1b43ea84486fb4ba9ef0",<br>    "59ab1b43ea84486fb4ba9ef1"<br>  ]<br>}</span></pre><p id="0fdb" class="pw-post-body-paragraph ia ib gy ic b id ie hm if ig ih hp ii ij ik il im in io ip iq ir is it iu iv gr bj" data-selectable-paragraph="">Keep in mind that this is your <em class="kz">stored document. </em>We have not called .populate() on it yet. Once it is called, it will go to the appropriate collection, search for those two _ids, and return your user, but now with an array of her actual posts. Letâ€™s do that now.</p><h2 id="dcba" class="jp jq gy be jr js jt ju jv jw jx jy jz ij ka kb kc in kd ke kf ir kg kh ki kj bj" data-selectable-paragraph="">Step 3: Implementing .Populate()</h2><p id="0ed2" class="pw-post-body-paragraph ia ib gy ic b id kk hm if ig kl hp ii ij km il im in kn ip iq ir ko it iu iv gr bj" data-selectable-paragraph="">Hereâ€™s the function:</p><pre class="ix iy iz ja el kp kq kr ks ax kt bj"><span id="1958" class="jp jq gy kq b ew ku kv l kw kx" data-selectable-paragraph="">function getUserWithPosts(username){<br>  return User.findOne({ username: username })<br>    .populate('posts').exec((err, posts) =&gt; {<br>      console.log("Populated User " + posts);<br>    })<br>}</span></pre><p id="a3d3" class="pw-post-body-paragraph ia ib gy ic b id ie hm if ig ih hp ii ij ik il im in io ip iq ir is it iu iv gr bj" data-selectable-paragraph="">.populate() needs a query to attach itself to, so we are using User.findOne() to find a user who matches the username we provide in the argument. This returns our user document. This is when .populate() takes over. Youâ€™ll notice I am providing â€˜postsâ€™ to our .populate(). By providing the â€˜postsâ€™ argument, weâ€™ve told .populate() what property in our user document we want it to work with. Calling .exec() just executes something once .populate() has done itâ€™s thing. The log prints this:</p><pre class="ix iy iz ja el kp kq kr ks ax kt bj"><span id="e778" class="jp jq gy kq b ew ku kv l kw kx" data-selectable-paragraph="">{ <br>  _id: 59ab1c92ea84486fb4ba9f28,<br>  username: 'JD',<br>  posts:<br>    [ <br>      { <br>        _id: 59ab1b43ea84486fb4ba9ef0,<br>        content: "Is it dark out?"<br>      },{<br>        _id: 59ab1b43ea84486fb4ba9ef1,<br>        content: "Hey anyone got a cup of sugar?"<br>      }<br>    ]<br>  }</span></pre><p id="5ee3" class="pw-post-body-paragraph ia ib gy ic b id ie hm if ig ih hp ii ij ik il im in io ip iq ir is it iu iv gr bj" data-selectable-paragraph="">And like magic, we have created a unified object using 2 schemas, 2 models, and 2 collections. All of the steps are important of course, but the thing that no other site made explicitly clear was that after setting up the ground work, you have to make sure you are pushing _ids into the field you will need populated later.</p><figure class="ix iy iz ja el jb dz ea paragraph-image"><div role="button" tabindex="0" class="lb lc dj ld bg le"><div class="dz ea la"><picture><source srcset="https://miro.medium.com/v2/resize:fit:640/format:webp/1*WpFxuBpMV9Qki4399SEV4A.jpeg 640w, https://miro.medium.com/v2/resize:fit:720/format:webp/1*WpFxuBpMV9Qki4399SEV4A.jpeg 720w, https://miro.medium.com/v2/resize:fit:750/format:webp/1*WpFxuBpMV9Qki4399SEV4A.jpeg 750w, https://miro.medium.com/v2/resize:fit:786/format:webp/1*WpFxuBpMV9Qki4399SEV4A.jpeg 786w, https://miro.medium.com/v2/resize:fit:828/format:webp/1*WpFxuBpMV9Qki4399SEV4A.jpeg 828w, https://miro.medium.com/v2/resize:fit:1100/format:webp/1*WpFxuBpMV9Qki4399SEV4A.jpeg 1100w, https://miro.medium.com/v2/resize:fit:1400/format:webp/1*WpFxuBpMV9Qki4399SEV4A.jpeg 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px" type="image/webp"><source data-testid="og" srcset="https://miro.medium.com/v2/resize:fit:640/1*WpFxuBpMV9Qki4399SEV4A.jpeg 640w, https://miro.medium.com/v2/resize:fit:720/1*WpFxuBpMV9Qki4399SEV4A.jpeg 720w, https://miro.medium.com/v2/resize:fit:750/1*WpFxuBpMV9Qki4399SEV4A.jpeg 750w, https://miro.medium.com/v2/resize:fit:786/1*WpFxuBpMV9Qki4399SEV4A.jpeg 786w, https://miro.medium.com/v2/resize:fit:828/1*WpFxuBpMV9Qki4399SEV4A.jpeg 828w, https://miro.medium.com/v2/resize:fit:1100/1*WpFxuBpMV9Qki4399SEV4A.jpeg 1100w, https://miro.medium.com/v2/resize:fit:1400/1*WpFxuBpMV9Qki4399SEV4A.jpeg 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px"><img alt="" class="bg jc jd c" width="700" height="392" loading="lazy" role="presentation" src="https://miro.medium.com/v2/resize:fit:1400/1*WpFxuBpMV9Qki4399SEV4A.jpeg"></picture></div></div><figcaption class="je jf eb dz ea jg jh be b bf z fv" data-selectable-paragraph="">Hey youâ€™re not so bad after all.</figcaption></figure></div></div></section></div></div></article></div></div></div><div class="ab cm"><div class="dp bg dq dr ds dt"><div class="lf lg ab fu"><div class="lh ab"><a class="li ax am ao" rel="noopener follow" href="https://medium.com/tag/javascript?source=post_page-----b844ae6d1ee7---------------javascript-----------------"><div class="lj dj ev lk ll lm be b bf z bj ln">JavaScript</div></a></div><div class="lh ab"><a class="li ax am ao" rel="noopener follow" href="https://medium.com/tag/mongoose?source=post_page-----b844ae6d1ee7---------------mongoose-----------------"><div class="lj dj ev lk ll lm be b bf z bj ln">Mongoose</div></a></div><div class="lh ab"><a class="li ax am ao" rel="noopener follow" href="https://medium.com/tag/programming?source=post_page-----b844ae6d1ee7---------------programming-----------------"><div class="lj dj ev lk ll lm be b bf z bj ln">Programming</div></a></div><div class="lh ab"><a class="li ax am ao" rel="noopener follow" href="https://medium.com/tag/coding?source=post_page-----b844ae6d1ee7---------------coding-----------------"><div class="lj dj ev lk ll lm be b bf z bj ln">Coding</div></a></div><div class="lh ab"><a class="li ax am ao" rel="noopener follow" href="https://medium.com/tag/web-development?source=post_page-----b844ae6d1ee7---------------web_development-----------------"><div class="lj dj ev lk ll lm be b bf z bj ln">Web Development</div></a></div></div></div></div><div class="l"></div><footer class="lo lp lq lr ls lt lu lv lw ab q lx ly c"><div class="l ae"><div class="ab cm"><div class="dp bg dq dr ds dt"><div class="ab eo lz"><div class="ab q cc"><div class="ma l"><span class="l fa mb mc e d"><div class="ab q cc"><div class="pw-multi-vote-icon dj md me mf mg"><span><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fb844ae6d1ee7&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2F%40nicknauert%2Fmongooses-model-populate-b844ae6d1ee7&amp;user=Nick+Nauert&amp;userId=760b8735c20c&amp;source=-----b844ae6d1ee7---------------------clap_footer-----------"><div class="mh ao mj sg nd mn am mo mp mq mg"><svg width="24" height="24" viewBox="0 0 24 24" aria-label="clap"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.37.83L12 3.28l.63-2.45h-1.26zM13.92 3.95l1.52-2.1-1.18-.4-.34 2.5zM8.59 1.84l1.52 2.11-.34-2.5-1.18.4zM18.52 18.92a4.23 4.23 0 0 1-2.62 1.33l.41-.37c2.39-2.4 2.86-4.95 1.4-7.63l-.91-1.6-.8-1.67c-.25-.56-.19-.98.21-1.29a.7.7 0 0 1 .55-.13c.28.05.54.23.72.5l2.37 4.16c.97 1.62 1.14 4.23-1.33 6.7zm-11-.44l-4.15-4.15a.83.83 0 0 1 1.17-1.17l2.16 2.16a.37.37 0 0 0 .51-.52l-2.15-2.16L3.6 11.2a.83.83 0 0 1 1.17-1.17l3.43 3.44a.36.36 0 0 0 .52 0 .36.36 0 0 0 0-.52L5.29 9.51l-.97-.97a.83.83 0 0 1 0-1.16.84.84 0 0 1 1.17 0l.97.97 3.44 3.43a.36.36 0 0 0 .51 0 .37.37 0 0 0 0-.52L6.98 7.83a.82.82 0 0 1-.18-.9.82.82 0 0 1 .76-.51c.22 0 .43.09.58.24l5.8 5.79a.37.37 0 0 0 .58-.42L13.4 9.67c-.26-.56-.2-.98.2-1.29a.7.7 0 0 1 .55-.13c.28.05.55.23.73.5l2.2 3.86c1.3 2.38.87 4.59-1.29 6.75a4.65 4.65 0 0 1-4.19 1.37 7.73 7.73 0 0 1-4.07-2.25zm3.23-12.5l2.12 2.11c-.41.5-.47 1.17-.13 1.9l.22.46-3.52-3.53a.81.81 0 0 1-.1-.36c0-.23.09-.43.24-.59a.85.85 0 0 1 1.17 0zm7.36 1.7a1.86 1.86 0 0 0-1.23-.84 1.44 1.44 0 0 0-1.12.27c-.3.24-.5.55-.58.89-.25-.25-.57-.4-.91-.47-.28-.04-.56 0-.82.1l-2.18-2.18a1.56 1.56 0 0 0-2.2 0c-.2.2-.33.44-.4.7a1.56 1.56 0 0 0-2.63.75 1.6 1.6 0 0 0-2.23-.04 1.56 1.56 0 0 0 0 2.2c-.24.1-.5.24-.72.45a1.56 1.56 0 0 0 0 2.2l.52.52a1.56 1.56 0 0 0-.75 2.61L7 19a8.46 8.46 0 0 0 4.48 2.45 5.18 5.18 0 0 0 3.36-.5 4.89 4.89 0 0 0 4.2-1.51c2.75-2.77 2.54-5.74 1.43-7.59L18.1 7.68z"></path></svg></div></a></span></div><div class="pw-multi-vote-count l mr ms mt mu mv mw mx"><p class="be b fd z fv"><span class="mi">--</span></p></div></div></span><span class="l h g f my mz"><div class="ab q cc"><div class="pw-multi-vote-icon dj md me mf mg"><span><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2Fb844ae6d1ee7&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2F%40nicknauert%2Fmongooses-model-populate-b844ae6d1ee7&amp;user=Nick+Nauert&amp;userId=760b8735c20c&amp;source=-----b844ae6d1ee7---------------------clap_footer-----------"><div class="mh ao mj sg nd mn am mo mp mq mg"><svg width="24" height="24" viewBox="0 0 24 24" aria-label="clap"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.37.83L12 3.28l.63-2.45h-1.26zM13.92 3.95l1.52-2.1-1.18-.4-.34 2.5zM8.59 1.84l1.52 2.11-.34-2.5-1.18.4zM18.52 18.92a4.23 4.23 0 0 1-2.62 1.33l.41-.37c2.39-2.4 2.86-4.95 1.4-7.63l-.91-1.6-.8-1.67c-.25-.56-.19-.98.21-1.29a.7.7 0 0 1 .55-.13c.28.05.54.23.72.5l2.37 4.16c.97 1.62 1.14 4.23-1.33 6.7zm-11-.44l-4.15-4.15a.83.83 0 0 1 1.17-1.17l2.16 2.16a.37.37 0 0 0 .51-.52l-2.15-2.16L3.6 11.2a.83.83 0 0 1 1.17-1.17l3.43 3.44a.36.36 0 0 0 .52 0 .36.36 0 0 0 0-.52L5.29 9.51l-.97-.97a.83.83 0 0 1 0-1.16.84.84 0 0 1 1.17 0l.97.97 3.44 3.43a.36.36 0 0 0 .51 0 .37.37 0 0 0 0-.52L6.98 7.83a.82.82 0 0 1-.18-.9.82.82 0 0 1 .76-.51c.22 0 .43.09.58.24l5.8 5.79a.37.37 0 0 0 .58-.42L13.4 9.67c-.26-.56-.2-.98.2-1.29a.7.7 0 0 1 .55-.13c.28.05.55.23.73.5l2.2 3.86c1.3 2.38.87 4.59-1.29 6.75a4.65 4.65 0 0 1-4.19 1.37 7.73 7.73 0 0 1-4.07-2.25zm3.23-12.5l2.12 2.11c-.41.5-.47 1.17-.13 1.9l.22.46-3.52-3.53a.81.81 0 0 1-.1-.36c0-.23.09-.43.24-.59a.85.85 0 0 1 1.17 0zm7.36 1.7a1.86 1.86 0 0 0-1.23-.84 1.44 1.44 0 0 0-1.12.27c-.3.24-.5.55-.58.89-.25-.25-.57-.4-.91-.47-.28-.04-.56 0-.82.1l-2.18-2.18a1.56 1.56 0 0 0-2.2 0c-.2.2-.33.44-.4.7a1.56 1.56 0 0 0-2.63.75 1.6 1.6 0 0 0-2.23-.04 1.56 1.56 0 0 0 0 2.2c-.24.1-.5.24-.72.45a1.56 1.56 0 0 0 0 2.2l.52.52a1.56 1.56 0 0 0-.75 2.61L7 19a8.46 8.46 0 0 0 4.48 2.45 5.18 5.18 0 0 0 3.36-.5 4.89 4.89 0 0 0 4.2-1.51c2.75-2.77 2.54-5.74 1.43-7.59L18.1 7.68z"></path></svg></div></a></span></div><div class="pw-multi-vote-count l mr ms mt mu mv mw mx"><p class="be b fd z fv"><span class="mi">--</span></p></div></div></span></div><div class="bp ab"><div><div class="bl" aria-hidden="false" aria-describedby="86" aria-labelledby="86"><button class="ao mh nb nc ab q mj nd ne" aria-label="responses"><svg width="24" height="24" viewBox="0 0 24 24" aria-label="responses" class="na"><path d="M18 16.8a7.14 7.14 0 0 0 2.24-5.32c0-4.12-3.53-7.48-8.05-7.48C7.67 4 4 7.36 4 11.48c0 4.13 3.67 7.48 8.2 7.48a8.9 8.9 0 0 0 2.38-.32c.23.2.48.39.75.56 1.06.69 2.2 1.04 3.4 1.04.22 0 .4-.11.48-.29a.5.5 0 0 0-.04-.52 6.4 6.4 0 0 1-1.16-2.65v.02zm-3.12 1.06l-.06-.22-.32.1a8 8 0 0 1-2.3.33c-4.03 0-7.3-2.96-7.3-6.59S8.17 4.9 12.2 4.9c4 0 7.1 2.96 7.1 6.6 0 1.8-.6 3.47-2.02 4.72l-.2.16v.26l.02.3a6.74 6.74 0 0 0 .88 2.4 5.27 5.27 0 0 1-2.17-.86c-.28-.17-.72-.38-.94-.59l.01-.02z"></path></svg><p class="be b bf z fv"><span class="pw-responses-count nf na">28</span></p></button></div></div></div></div><div class="ab q"><div class="bl" aria-hidden="false" aria-describedby="postFooterSocialMenu" aria-labelledby="postFooterSocialMenu"><div><div class="bl" aria-hidden="false" aria-describedby="87" aria-labelledby="87"><button class="af mj ah ai aj ak al gb an ao ap fn ng nh ne ni"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.22 4.93a.42.42 0 0 1-.12.13h.01a.45.45 0 0 1-.29.08.52.52 0 0 1-.3-.13L12.5 3v7.07a.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5V3.02l-2 2a.45.45 0 0 1-.57.04h-.02a.4.4 0 0 1-.16-.3.4.4 0 0 1 .1-.32l2.8-2.8a.5.5 0 0 1 .7 0l2.8 2.8a.42.42 0 0 1 .07.5zm-.1.14zm.88 2h1.5a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-10a2 2 0 0 1 2-2H8a.5.5 0 0 1 .35.14c.1.1.15.22.15.35a.5.5 0 0 1-.15.35.5.5 0 0 1-.35.15H6.4c-.5 0-.9.4-.9.9v10.2a.9.9 0 0 0 .9.9h11.2c.5 0 .9-.4.9-.9V8.96c0-.5-.4-.9-.9-.9H16a.5.5 0 0 1 0-1z" fill="currentColor"></path></svg></button></div></div></div><div class="nj jo l ga"><div><div class="bl" aria-hidden="false" aria-describedby="88" aria-labelledby="88"><span><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb844ae6d1ee7&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2F%40nicknauert%2Fmongooses-model-populate-b844ae6d1ee7&amp;source=--------------------------bookmark_footer-----------"><button aria-controls="addToCatalogBookmarkButton" aria-expanded="false" aria-label="Add to list bookmark button" class="af mj ah ai aj ak al gb an ao ap fn sa sb sc"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="rz" aria-label="Add to list bookmark button"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg></button></a></span></div></div></div></div></div></div></div></div></footer><div class="ab cm"><div class="dp bg dq dr ds dt"></div></div><div class="l"><div class="l bw lz"><div class="l lz"><div class="nk nl l bw"><div class="ab cm"><div class="dp bg dq dr ds dt"><div class="ab q eo"><h2 class="be nm js ju nn jv jw jy no jz ij kb np kc in ke nq kf ir kh nr ki ns nt nu nv nw nx ny bj"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/@nicknauert?source=post_page-----b844ae6d1ee7--------------------------------">More from Nick Nauert</a></h2><div class="nz ab"><span><button class="be b bf z fe oa fg fh fi fj fk fl fm fn fo fp fq fr fs df bl ft">Follow</button></span><div class="nz l"><div><div><div class="bl" aria-hidden="false" aria-describedby="89" aria-labelledby="89"><div class="l"><span><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnewsletters%2Faa09f5be0544&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2F%40nicknauert%2Fmongooses-model-populate-b844ae6d1ee7&amp;newsletterV3=760b8735c20c&amp;newsletterV3Id=aa09f5be0544&amp;user=Nick+Nauert&amp;userId=760b8735c20c&amp;source=-----b844ae6d1ee7---------------------subscribe_user-----------"><button class="be b bf z oe am of kt og oh oi oj ok ol fm fn fo fp fq fr fs df bl ft" aria-label="Subscribe"><svg width="38" height="38" viewBox="0 0 38 38" fill="none" class="ob oc od"><rect x="26.25" y="9.25" width="0.5" height="6.5" rx="0.25"></rect><rect x="29.75" y="12.25" width="0.5" height="6.5" rx="0.25" transform="rotate(90 29.75 12.25)"></rect><path d="M19.5 12.5h-7a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-5"></path><path d="M11.5 14.5L19 20l4-3"></path></svg></button></a></span></div></div></div></div></div></div></div><div class="om l gr"><p class="be b bf z fv">Wannabe Everything</p></div></div></div></div></div><div class="on l"></div></div></div><div class="d"><div class="oo op oq l lx or os gm ot ou"><div class="ab cm"><div class="ov ow ox oy oz pa dp bg"><a class="af ag ah ai aj ak al am an ao ap pb pc pd pe" aria-label="Go to homepage" rel="noopener follow" href="https://medium.com/?source=post_page-----b844ae6d1ee7--------------------------------"><svg viewBox="0 0 3940 610" class="fg pf"><path d="M594.79 308.2c0 163.76-131.85 296.52-294.5 296.52S5.8 472 5.8 308.2 137.65 11.69 300.29 11.69s294.5 132.75 294.5 296.51M917.86 308.2c0 154.16-65.93 279.12-147.25 279.12s-147.25-125-147.25-279.12S689.29 29.08 770.61 29.08s147.25 125 147.25 279.12M1050 308.2c0 138.12-23.19 250.08-51.79 250.08s-51.79-112-51.79-250.08 23.19-250.08 51.8-250.08S1050 170.09 1050 308.2M1862.77 37.4l.82-.18v-6.35h-167.48l-155.51 365.5-155.51-365.5h-180.48v6.35l.81.18c30.57 6.9 46.09 17.19 46.09 54.3v434.45c0 37.11-15.58 47.4-46.15 54.3l-.81.18V587H1327v-6.35l-.81-.18c-30.57-6.9-46.09-17.19-46.09-54.3V116.9L1479.87 587h11.33l205.59-483.21V536.9c-2.62 29.31-18 38.36-45.68 44.61l-.82.19v6.3h213.3v-6.3l-.82-.19c-27.71-6.25-43.46-15.3-46.08-44.61l-.14-445.2h.14c0-37.11 15.52-47.4 46.08-54.3m97.43 287.8c3.49-78.06 31.52-134.4 78.56-135.37 14.51.24 26.68 5 36.14 14.16 20.1 19.51 29.55 60.28 28.09 121.21zm-2.11 22h250v-1.05c-.71-59.69-18-106.12-51.34-138-28.82-27.55-71.49-42.71-116.31-42.71h-1c-23.26 0-51.79 5.64-72.09 15.86-23.11 10.7-43.49 26.7-60.45 47.7-27.3 33.83-43.84 79.55-47.86 130.93-.13 1.54-.24 3.08-.35 4.62s-.18 2.92-.25 4.39a332.64 332.64 0 0 0-.36 21.69C1860.79 507 1923.65 600 2035.3 600c98 0 155.07-71.64 169.3-167.8l-7.19-2.53c-25 51.68-69.9 83-121 79.18-69.76-5.22-123.2-75.95-118.35-161.63m532.69 157.68c-8.2 19.45-25.31 30.15-48.24 30.15s-43.89-15.74-58.78-44.34c-16-30.7-24.42-74.1-24.42-125.51 0-107 33.28-176.21 84.79-176.21 21.57 0 38.55 10.7 46.65 29.37zm165.84 76.28c-30.57-7.23-46.09-18-46.09-57V5.28L2424.77 60v6.7l1.14-.09c25.62-2.07 43 1.47 53.09 10.79 7.9 7.3 11.75 18.5 11.75 34.26v71.14c-18.31-11.69-40.09-17.38-66.52-17.38-53.6 0-102.59 22.57-137.92 63.56-36.83 42.72-56.3 101.1-56.3 168.81C2230 518.72 2289.53 600 2378.13 600c51.83 0 93.53-28.4 112.62-76.3V588h166.65v-6.66zm159.29-505.33c0-37.76-28.47-66.24-66.24-66.24-37.59 0-67 29.1-67 66.24s29.44 66.24 67 66.24c37.77 0 66.24-28.48 66.24-66.24m43.84 505.33c-30.57-7.23-46.09-18-46.09-57h-.13V166.65l-166.66 47.85v6.5l1 .09c36.06 3.21 45.93 15.63 45.93 57.77V588h166.8v-6.66zm427.05 0c-30.57-7.23-46.09-18-46.09-57V166.65L3082 212.92v6.52l.94.1c29.48 3.1 38 16.23 38 58.56v226c-9.83 19.45-28.27 31-50.61 31.78-36.23 0-56.18-24.47-56.18-68.9V166.66l-166.66 47.85V221l1 .09c36.06 3.2 45.94 15.62 45.94 57.77v191.27a214.48 214.48 0 0 0 3.47 39.82l3 13.05c14.11 50.56 51.08 77 109 77 49.06 0 92.06-30.37 111-77.89v66h166.66v-6.66zM3934.2 588v-6.67l-.81-.19c-33.17-7.65-46.09-22.07-46.09-51.43v-243.2c0-75.83-42.59-121.09-113.93-121.09-52 0-95.85 30.05-112.73 76.86-13.41-49.6-52-76.86-109.06-76.86-50.12 0-89.4 26.45-106.25 71.13v-69.87l-166.66 45.89v6.54l1 .09c35.63 3.16 45.93 15.94 45.93 57V588h155.5v-6.66l-.82-.2c-26.46-6.22-35-17.56-35-46.66V255.72c7-16.35 21.11-35.72 49-35.72 34.64 0 52.2 24 52.2 71.28V588h155.54v-6.66l-.82-.2c-26.46-6.22-35-17.56-35-46.66v-248a160.45 160.45 0 0 0-2.2-27.68c7.42-17.77 22.34-38.8 51.37-38.8 35.13 0 52.2 23.31 52.2 71.28V588z"></path></svg></a><div class="pg l"><p class="be b fd z ph"><a class="af ag ah ai aj ak al am an ao ap pb pc pi jo" href="https://medium.com/about?autoplay=1&amp;source=post_page-----b844ae6d1ee7--------------------------------" rel="noopener follow">About</a><a class="af ag ah ai aj ak al am an ao ap pb pc pi jo" href="https://help.medium.com/hc/en-us?source=post_page-----b844ae6d1ee7--------------------------------" rel="noopener follow">Help</a><a class="af ag ah ai aj ak al am an ao ap pb pc pi jo" href="https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----b844ae6d1ee7--------------------------------" rel="noopener follow">Terms</a><a class="af ag ah ai aj ak al am an ao ap pb pc pi" href="https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----b844ae6d1ee7--------------------------------" rel="noopener follow">Privacy</a></p></div><div class="j i d"><hr class="mh pj pk pl" aria-hidden="true"><h2 class="be nm ew z hi ph">Get the Medium app</h2><div class="pg ab"><div class="ep l"><a class="af ag ah ai aj ak al am an ao ap pb pc pd pe" href="https://itunes.apple.com/app/medium-everyones-stories/id828256236?pt=698524&amp;mt=8&amp;ct=post_page&amp;source=post_page-----b844ae6d1ee7--------------------------------" rel="noopener follow"><img alt="A button that says 'Download on the App Store', and if clicked it will lead you to the iOS App store" class="" src="https://miro.medium.com/v2/resize:fit:270/1*Crl55Tm6yDNMoucPo1tvDg.png" width="135" height="41" loading="lazy"></a></div><a class="af ag ah ai aj ak al am an ao ap pb pc pd pe" href="https://play.google.com/store/apps/details?id=com.medium.reader&amp;source=post_page-----b844ae6d1ee7--------------------------------" rel="noopener follow"><img alt="A button that says 'Get it on, Google Play', and if clicked it will lead you to the Google Play store" class="" src="https://miro.medium.com/v2/resize:fit:270/1*W_RAPQ62h0em559zluJLdQ.png" width="135" height="41" loading="lazy"></a></div></div></div></div></div></div></div></main><div class="cn co h cp cq cr k cs ct cu j cv cw cx cy cz da db dc dd de df c dg dh"><div class="di bg bl dj"><div class="l m pm" style="top: 57px;"><div class="pn ab po" style="min-height: calc(100vh - 57px);"><div class="l ae"><div class="pp pq pr l"></div><div class="pp pq pr l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/@nicknauert?source=---two_column_layout_sidebar----------------------------------"><div class="l dj"><img alt="Nick Nauert" class="l df bx pv pw ev" src="https://miro.medium.com/v2/resize:fill:176:176/2*ZVXOu-DrSscIuko3_8FztA.jpeg" width="88" height="88" loading="lazy"><div class="eq bx l pv pw et n ax eu"></div></div></a><div class="px l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/@nicknauert?source=---two_column_layout_sidebar----------------------------------"><h2 class="pw-author-name be nm ew z hi bj"><span class="gr">Nick Nauert</span></h2></a></div><div class="py l"><span class="pw-follower-count be b ew ex fv"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/@nicknauert/followers?source=---two_column_layout_sidebar----------------------------------">150 Followers</a></span></div><div class="pz l"><p class="be b bf z fv"><span class="gr">Wannabe Everything</span></p></div><div class="qa qb ab"><span><button class="be b bf z fe oa fg fh fi fj fk fl fm fn fo fp fq qc fr fs df bl ft">Follow</button></span><div class="nz l"><div><div><div class="bl" aria-hidden="false" aria-describedby="90" aria-labelledby="90"><div class="l"><span><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/m/signin?actionUrl=%2F_%2Fapi%2Fsubscriptions%2Fnewsletters%2Faa09f5be0544&amp;operation=register&amp;redirect=https%3A%2F%2Fmedium.com%2F%40nicknauert%2Fmongooses-model-populate-b844ae6d1ee7&amp;newsletterV3=760b8735c20c&amp;newsletterV3Id=aa09f5be0544&amp;user=Nick+Nauert&amp;userId=760b8735c20c&amp;source=---two_column_layout_sidebar-----------------------subscribe_user-----------"><button class="be b bf z oe am of kt og oh oi oj ok ol fm fn fo fp fq fr fs df bl ft" aria-label="Subscribe"><svg width="38" height="38" viewBox="0 0 38 38" fill="none" class="ob oc od"><rect x="26.25" y="9.25" width="0.5" height="6.5" rx="0.25"></rect><rect x="29.75" y="12.25" width="0.5" height="6.5" rx="0.25" transform="rotate(90 29.75 12.25)"></rect><path d="M19.5 12.5h-7a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-5"></path><path d="M11.5 14.5L19 20l4-3"></path></svg></button></a></span></div></div></div></div></div></div></div><div class="pp pq pr l"></div><div class="pp pq pr l"></div></div><div class="qd ab cc fu"><div class="qe l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" href="https://help.medium.com/hc/en-us?source=---two_column_layout_sidebar----------------------------------" rel="noopener follow"><p class="be b qf qg fv">Help</p></a></div><div class="qe l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" href="https://medium.statuspage.io/?source=---two_column_layout_sidebar----------------------------------" rel="noopener follow"><p class="be b qf qg fv">Status</p></a></div><div class="qe l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" href="https://about.medium.com/creators/?source=---two_column_layout_sidebar----------------------------------" rel="noopener follow"><p class="be b qf qg fv">Writers</p></a></div><div class="qe l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" href="https://blog.medium.com/?source=---two_column_layout_sidebar----------------------------------" rel="noopener follow"><p class="be b qf qg fv">Blog</p></a></div><div class="qe l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" rel="noopener follow" href="https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=---two_column_layout_sidebar----------------------------------"><p class="be b qf qg fv">Careers</p></a></div><div class="qe l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" href="https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=---two_column_layout_sidebar----------------------------------" rel="noopener follow"><p class="be b qf qg fv">Privacy</p></a></div><div class="qe l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" href="https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=---two_column_layout_sidebar----------------------------------" rel="noopener follow"><p class="be b qf qg fv">Terms</p></a></div><div class="qe l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" href="https://medium.com/about?autoplay=1&amp;source=---two_column_layout_sidebar----------------------------------" rel="noopener follow"><p class="be b qf qg fv">About</p></a></div><div class="l"><a class="af ag ah ai aj ak al am an ao ap aq ar as at" href="https://speechify.com/medium?source=---two_column_layout_sidebar----------------------------------" rel="noopener follow"><p class="be b qf qg fv">Text to speech</p></a></div></div></div></div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-7d07d8a0-5e36-4525-a574-2a0b6b1d723a@mhtml.blink
+
+@charset "utf-8";
+
+html { box-sizing: border-box; text-size-adjust: 100%; }
+
+*, ::before, ::after { box-sizing: inherit; }
+
+body { margin: 0px; padding: 0px; text-rendering: optimizelegibility; -webkit-font-smoothing: antialiased; color: rgba(0, 0, 0, 0.8); position: relative; min-height: 100vh; }
+
+h1, h2, h3, h4, h5, h6, dl, dd, ol, ul, menu, figure, blockquote, p, pre, form { margin: 0px; }
+
+menu, ol, ul { padding: 0px; list-style: none none; }
+
+main { display: block; }
+
+a { color: inherit; text-decoration: none; }
+
+a, button, input { -webkit-tap-highlight-color: transparent; }
+
+img, svg { vertical-align: middle; }
+
+button { background: transparent; overflow: visible; }
+
+button, input, optgroup, select, textarea { margin: 0px; }
+
+:root { --reach-tabs:1; --reach-menu-button:1; }
+
+#speechify-root { font-family: Sohne, sans-serif; }
+
+div[data-popper-reference-hidden="true"] { visibility: hidden; pointer-events: none; }
+
+.hljs { background: rgb(255, 255, 255); color: black; }
+
+.xml .hljs-meta { color: rgb(192, 192, 192); }
+
+.hljs-comment, .hljs-quote { color: rgb(0, 116, 0); }
+
+.hljs-tag, .hljs-attribute, .hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-name { color: rgb(170, 13, 145); }
+
+.hljs-variable, .hljs-template-variable { color: rgb(63, 110, 116); }
+
+.hljs-code, .hljs-string, .hljs-meta .hljs-string { color: rgb(196, 26, 22); }
+
+.hljs-regexp, .hljs-link { color: rgb(14, 14, 255); }
+
+.hljs-title, .hljs-symbol, .hljs-bullet, .hljs-number { color: rgb(28, 0, 207); }
+
+.hljs-section, .hljs-meta { color: rgb(100, 56, 32); }
+
+.hljs-title.class_, .hljs-class .hljs-title, .hljs-type, .hljs-built_in, .hljs-params { color: rgb(92, 38, 153); }
+
+.hljs-attr { color: rgb(131, 108, 40); }
+
+.hljs-subst { color: rgb(0, 0, 0); }
+
+.hljs-formula { background-color: rgb(238, 238, 238); font-style: italic; }
+
+.hljs-addition { background-color: rgb(186, 238, 186); }
+
+.hljs-deletion { background-color: rgb(255, 200, 189); }
+
+.hljs-selector-id, .hljs-selector-class { color: rgb(155, 112, 63); }
+
+.hljs-doctag, .hljs-strong { font-weight: bold; }
+
+.hljs-emphasis { font-style: italic; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-dbb861db-9c13-4634-a89d-183fcfac40b9@mhtml.blink
+
+@charset "utf-8";
+
+@-webkit-keyframes k1 { 
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes k1 { 
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-ea66738d-09a1-43f1-bf98-24c5235b0c02@mhtml.blink
+
+@charset "utf-8";
+
+.a { font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+
+.b { font-weight: 400; }
+
+.c { background-color: rgb(255, 255, 255); }
+
+.l { display: block; }
+
+.m { position: sticky; }
+
+.n { top: 0px; }
+
+.o { z-index: 500; }
+
+.p { padding: 0px 24px; }
+
+.q { align-items: center; }
+
+.r { border-bottom: 1px solid rgb(242, 242, 242); }
+
+.y { height: 41px; }
+
+.z { line-height: 20px; }
+
+.ab { display: flex; }
+
+.ac { height: 57px; }
+
+.ae { flex: 1 0 auto; }
+
+.af { color: inherit; }
+
+.ag { fill: inherit; }
+
+.ah { font-size: inherit; }
+
+.ai { border: inherit; }
+
+.aj { font-family: inherit; }
+
+.ak { letter-spacing: inherit; }
+
+.al { font-weight: inherit; }
+
+.am { padding: 0px; }
+
+.an { margin: 0px; }
+
+.ao { cursor: pointer; }
+
+.ap:disabled { cursor: not-allowed; }
+
+.aq:disabled { color: rgb(117, 117, 117); }
+
+.ar:disabled { fill: rgb(117, 117, 117); }
+
+.au { height: 25px; }
+
+.av { fill: rgb(41, 41, 41); }
+
+.aw { margin-left: 16px; }
+
+.ax { border: none; }
+
+.ay { border-radius: 20px; }
+
+.az { width: 240px; }
+
+.ba { background: rgb(250, 250, 250); }
+
+.bb path { fill: rgb(117, 117, 117); }
+
+.bd { outline: none; }
+
+.be { font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.bf { font-size: 14px; }
+
+.bg { width: 100%; }
+
+.bh { padding: 10px 20px 10px 0px; }
+
+.bi { background-color: transparent; }
+
+.bj { color: rgb(41, 41, 41); }
+
+.bk::placeholder { color: rgb(117, 117, 117); }
+
+.bl { display: inline-block; }
+
+.bm { margin-left: 12px; }
+
+.bn { margin-right: 12px; }
+
+.bo { border-radius: 4px; }
+
+.bp { margin-left: 24px; }
+
+.bq { height: 24px; }
+
+.bw { background-color: rgb(250, 250, 250); }
+
+.bx { border-radius: 50%; }
+
+.by { height: 32px; }
+
+.bz { width: 32px; }
+
+.ca { margin: auto; }
+
+.cb { max-width: 1336px; }
+
+.cc { flex-direction: row; }
+
+.cd { justify-content: space-evenly; }
+
+.ck { flex: 1 1 auto; }
+
+.cl { height: 100vh; }
+
+.cm { justify-content: center; }
+
+.cn { padding-right: 24px; }
+
+.df { box-sizing: border-box; }
+
+.dg { border-left: 1px solid rgb(242, 242, 242); }
+
+.dh { min-height: 100vh; }
+
+.di { height: 100%; }
+
+.dj { position: relative; }
+
+.dp { min-width: 0px; }
+
+.dq { margin: 0px 24px; }
+
+.dz { margin-left: auto; }
+
+.ea { margin-right: auto; }
+
+.eb { max-width: 728px; }
+
+.em { align-items: flex-start; }
+
+.eo { justify-content: space-between; }
+
+.ep { margin-right: 16px; }
+
+.eq { box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px inset; }
+
+.er { height: 48px; }
+
+.es { width: 48px; }
+
+.et { position: absolute; }
+
+.ev { background-color: rgb(242, 242, 242); }
+
+.ew { font-size: 16px; }
+
+.ex { line-height: 24px; }
+
+.ey { margin-bottom: 4px; }
+
+.ez { padding-left: 12px; }
+
+.fd { font-size: 13px; }
+
+.fe { color: rgb(255, 255, 255); }
+
+.ff { padding: 0px 8px 1px; }
+
+.fg { fill: rgb(255, 255, 255); }
+
+.fh { background: rgb(26, 137, 23); }
+
+.fi { border-color: rgb(26, 137, 23); }
+
+.fm:disabled { cursor: inherit !important; }
+
+.fn:disabled { opacity: 0.3; }
+
+.fo:disabled:hover { background: rgb(26, 137, 23); }
+
+.fp:disabled:hover { border-color: rgb(26, 137, 23); }
+
+.fq { border-radius: 99em; }
+
+.fr { border-width: 1px; }
+
+.fs { border-style: solid; }
+
+.ft { text-decoration: none; }
+
+.fu { flex-wrap: wrap; }
+
+.fv { color: rgb(117, 117, 117); }
+
+.fw { padding: 0px 8px; }
+
+.fz { padding-right: 4px; }
+
+.ga { flex: 0 0 auto; }
+
+.gb { padding: 8px 2px; }
+
+.gc path { fill: rgb(168, 168, 168); }
+
+.ge { margin: 0px 16px 0px 28px; }
+
+.gf { padding-top: 24px; }
+
+.gg { padding-right: 12px; }
+
+.gh { background: rgb(255, 255, 255); }
+
+.gi { border: 1px solid rgb(230, 230, 230); }
+
+.gj { box-shadow: rgb(230, 230, 230) 0px 1px 4px; }
+
+.gk { max-height: 100vh; }
+
+.gl { overflow-y: auto; }
+
+.gm { left: 0px; }
+
+.gn { top: calc(100vh + 100px); }
+
+.go { bottom: calc(100vh + 100px); }
+
+.gp { width: 10px; }
+
+.gq { pointer-events: none; }
+
+.gr { word-break: break-word; }
+
+.gs { overflow-wrap: break-word; }
+
+.gt::after { display: block; }
+
+.gu::after { content: ""; }
+
+.gv::after { clear: both; }
+
+.gw { line-height: 38px; }
+
+.gx { letter-spacing: -0.014em; }
+
+.gy { font-style: normal; }
+
+.gz { font-weight: 700; }
+
+.ha { font-size: 32px; }
+
+.hg { margin-bottom: -0.27em; }
+
+.hh { line-height: 1.394; }
+
+.hi { letter-spacing: 0px; }
+
+.hj { font-size: 24px; }
+
+.hz { margin-bottom: -0.42em; }
+
+.ia { line-height: 1.58; }
+
+.ib { letter-spacing: -0.004em; }
+
+.ic { font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif; }
+
+.iv { margin-bottom: -0.46em; }
+
+.iw { max-width: 306px; }
+
+.jb { clear: both; }
+
+.jc { max-width: 100%; }
+
+.jd { height: auto; }
+
+.je { margin-top: 10px; }
+
+.jf { text-align: center; }
+
+.ji { margin-top: 32px; }
+
+.jj { margin-bottom: 14px; }
+
+.jk { padding-bottom: 10px; }
+
+.jl { background-color: rgb(8, 8, 8); }
+
+.jm { height: 3px; }
+
+.jn { width: 3px; }
+
+.jo { margin-right: 20px; }
+
+.jp { line-height: 1.18; }
+
+.jq { letter-spacing: -0.022em; }
+
+.jr { font-weight: 600; }
+
+.kj { margin-bottom: -0.31em; }
+
+.kp { overflow-x: auto; }
+
+.kq { font-family: source-code-pro, Menlo, Monaco, "Courier New", Courier, monospace; }
+
+.kr { padding: 20px; }
+
+.ks { border-radius: 0px; }
+
+.kt { background: rgb(242, 242, 242); }
+
+.ku { margin-top: -0.09em; }
+
+.kv { margin-bottom: -0.09em; }
+
+.kw { white-space: pre-wrap; }
+
+.kx { min-width: fit-content; }
+
+.ky { margin-top: 0.91em; }
+
+.kz { font-style: italic; }
+
+.la { max-width: 1920px; }
+
+.lc { cursor: zoom-in; }
+
+.ld { z-index: auto; }
+
+.lf { margin-bottom: 26px; }
+
+.lg { margin-top: 6px; }
+
+.lh { margin-top: 8px; }
+
+.li { margin-right: 8px; }
+
+.lj { padding: 8px 16px; }
+
+.lk { border-radius: 100px; }
+
+.ll { transition: background 300ms ease 0s; }
+
+.ln { white-space: nowrap; }
+
+.lo { border-top: none; }
+
+.lu { height: 52px; }
+
+.lv { max-height: 52px; }
+
+.lw { box-sizing: content-box; }
+
+.lx { position: static; }
+
+.ly { z-index: 1; }
+
+.ma { max-width: 155px; }
+
+.md { margin-right: 4px; }
+
+.mg { user-select: none; }
+
+.mh { border: 0px; }
+
+.mi { cursor: progress; }
+
+.mj { fill: rgb(117, 117, 117); }
+
+.mm { opacity: 0.25; }
+
+.mn { outline: 0px; }
+
+.mo { user-select: none; }
+
+.mp > svg { pointer-events: none; }
+
+.na { margin-top: 0px; }
+
+.nb { opacity: 1; }
+
+.nc { padding: 4px 0px; }
+
+.nf { margin-left: 4px; }
+
+.ng svg { color: rgb(117, 117, 117); }
+
+.nj { margin-left: 20px; }
+
+.nk { padding-bottom: 4px; }
+
+.nl { padding-top: 32px; }
+
+.nm { font-weight: 500; }
+
+.ns { overflow: hidden; }
+
+.nt { text-overflow: ellipsis; }
+
+.nu { display: -webkit-box; }
+
+.nv { -webkit-line-clamp: 1; }
+
+.nw { -webkit-box-orient: vertical; }
+
+.nx { word-break: break-all; }
+
+.nz { margin-left: 8px; }
+
+.oa { padding: 7px 16px 9px; }
+
+.ob { stroke: rgb(242, 242, 242); }
+
+.oc { height: 36px; }
+
+.od { width: 36px; }
+
+.oe { color: rgb(242, 242, 242); }
+
+.of { fill: rgb(242, 242, 242); }
+
+.og { border-color: rgb(242, 242, 242); }
+
+.om { padding-top: 5px; }
+
+.on { padding-top: 25px; }
+
+.oo { padding: 30px 0px; }
+
+.op { margin-bottom: 0px; }
+
+.oq { min-width: 100vw; }
+
+.or { right: 0px; }
+
+.os { bottom: 0px; }
+
+.ot { background-color: rgb(0, 0, 0); }
+
+.pa { max-width: 1192px; }
+
+.pb:disabled { color: rgba(255, 255, 255, 0.6); }
+
+.pc:disabled { fill: rgba(255, 255, 255, 0.45); }
+
+.pf { height: 22px; }
+
+.pg { margin-top: 20px; }
+
+.ph { color: rgba(255, 255, 255, 0.95); }
+
+.pj { height: 1px; }
+
+.pk { background-color: rgba(255, 255, 255, 0.4); }
+
+.pl { margin: 28px 0px 20px; }
+
+.pm { top: 57px; }
+
+.pn { min-height: calc(100vh - 57px); }
+
+.po { flex-direction: column; }
+
+.pp { padding-bottom: 0px; }
+
+.pq { border-bottom: none; }
+
+.pr { margin-top: 40px; }
+
+.ps:disabled { opacity: 0.1; }
+
+.pt:disabled:hover { background: rgb(25, 25, 25); }
+
+.pu:disabled:hover { border-color: rgb(25, 25, 25); }
+
+.pv { height: 88px; }
+
+.pw { width: 88px; }
+
+.px { margin-top: 16px; }
+
+.py { margin-top: 4px; }
+
+.pz { margin-top: 12px; }
+
+.qa { margin-bottom: 40px; }
+
+.qb { margin-top: 24px; }
+
+.qc { width: auto; }
+
+.qd { padding: 24px 0px; }
+
+.qe { margin-right: 6px; }
+
+.qf { font-size: 11px; }
+
+.qg { line-height: 16px; }
+
+.qh { top: 0px; }
+
+.qi { left: 0px; }
+
+.qj { position: fixed; }
+
+.qk { background-color: rgba(0, 0, 0, 0.08); }
+
+.ql { z-index: 510; }
+
+.qm { opacity: 0; }
+
+.qn { transition: opacity 0.6s cubic-bezier(0.23, 1, 0.32, 1) 0s; }
+
+.qo { width: 414px; }
+
+.qp { z-index: 520; }
+
+.qq { background-color: white; }
+
+.qr { left: 100%; }
+
+.qs { overflow: auto; }
+
+.qt { }
+
+.qu { box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px; }
+
+.qv { transform: translateX(0px); }
+
+.qw { transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1) 0s, opacity 0.6s cubic-bezier(0.23, 1, 0.32, 1) 0s; }
+
+.qx { visibility: hidden; }
+
+.re { padding-right: 168px; }
+
+.rs { margin-right: 32px; }
+
+.rv { background: transparent; }
+
+.rw svg { margin-left: 4px; }
+
+.rx svg { fill: rgb(117, 117, 117); }
+
+.rz path { fill: rgb(41, 41, 41); }
+
+.sc svg path { fill: rgb(117, 117, 117); }
+
+.sd { padding: 6px 15px 6px 10px; }
+
+.sf svg { margin-right: 8px; }
+
+.as:hover:not(:disabled) { color: rgb(25, 25, 25); }
+
+.at:hover:not(:disabled) { fill: rgb(25, 25, 25); }
+
+.eu:hover { }
+
+.fj:hover { background: rgb(15, 115, 12); }
+
+.fk:hover { border-color: rgb(15, 115, 12); }
+
+.fl:hover { cursor: pointer; }
+
+.gd:hover path { fill: rgb(8, 8, 8); }
+
+.lm:hover { background-color: rgb(230, 230, 230); }
+
+.ml:hover { fill: rgb(117, 117, 117); }
+
+.nd:hover { fill: rgb(8, 8, 8); }
+
+.ne:hover p { color: rgb(8, 8, 8); }
+
+.nh:hover svg { color: rgb(8, 8, 8); }
+
+.oh:hover { background: rgb(242, 242, 242); }
+
+.oi:hover { border-color: rgb(242, 242, 242); }
+
+.oj:hover { cursor: wait; }
+
+.ok:hover { color: rgb(242, 242, 242); }
+
+.ol:hover { fill: rgb(242, 242, 242); }
+
+.pd:hover:not(:disabled) { color: rgb(255, 255, 255); }
+
+.pe:hover:not(:disabled) { fill: rgba(255, 255, 255, 0.9); }
+
+.pi:hover { text-decoration: underline; }
+
+.rt:hover { color: rgb(41, 41, 41); }
+
+.ru:hover { fill: rgb(41, 41, 41); }
+
+.ry:hover svg { fill: rgb(41, 41, 41); }
+
+.sa:hover:not(:disabled) svg path { fill: rgb(8, 8, 8); }
+
+.se:hover { border-color: rgb(204, 204, 204); }
+
+.bc:focus-within path { fill: rgb(41, 41, 41); }
+
+.le:focus { transform: scale(1.01); }
+
+.mk:focus { fill: rgb(117, 117, 117); }
+
+.ni:focus svg { color: rgb(8, 8, 8); }
+
+.sb:focus svg path { fill: rgb(8, 8, 8); }
+
+.sg:focus { fill: rgb(8, 8, 8); }
+
+.mq:active { border-style: none; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-0940824f-b66d-4305-aa53-1c839213761e@mhtml.blink
+
+@charset "utf-8";
+
+.d { display: none; }
+
+.bv { width: 64px; }
+
+.ce { max-width: 728px; }
+
+.cf { min-width: 728px; }
+
+.db { padding-left: clamp(24px, (24px + 100vw) - 1080px, 40px); }
+
+.dc { display: block; }
+
+.dd { min-width: 368px; }
+
+.de { max-width: 368px; }
+
+.do { margin-bottom: 68px; }
+
+.dt { max-width: 680px; }
+
+.dy { padding: 0px 16px; }
+
+.ek { margin-bottom: 32px; }
+
+.el { margin-top: 56px; }
+
+.fy { display: flex; }
+
+.hf { margin-top: 1.14em; }
+
+.hw { margin-top: 0.79em; }
+
+.hx { font-size: 22px; }
+
+.hy { line-height: 28px; }
+
+.ir { font-size: 20px; }
+
+.is { margin-top: 2em; }
+
+.it { line-height: 32px; }
+
+.iu { letter-spacing: -0.003em; }
+
+.kg { margin-top: 2.37em; }
+
+.kh { line-height: 24px; }
+
+.ki { letter-spacing: 0px; }
+
+.ko { margin-top: 0.86em; }
+
+.lt { margin-bottom: 26px; }
+
+.mx { margin-top: 0px; }
+
+.mz { display: inline-block; }
+
+.nr { max-height: 24px; }
+
+.oz { margin: 0px 64px; }
+
+.rl { font-size: 14px; }
+
+.rm { line-height: 20px; }
+
+.rr { padding: 4px 12px 6px; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-c37adb1e-c827-4012-9618-d2cf8e62d87b@mhtml.blink
+
+@charset "utf-8";
+
+.e { display: none; }
+
+.jg { margin-left: auto; }
+
+.jh { text-align: center; }
+
+.mw { margin-top: 0px; }
+
+.my { display: inline-block; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-9eed9982-11bb-420f-b6e1-02626d0ab557@mhtml.blink
+
+@charset "utf-8";
+
+.f { display: none; }
+
+.mc { display: inline-block; }
+
+.mv { margin-top: 0px; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-779b7e8d-a172-4e8d-8c5c-e90c48cc48e4@mhtml.blink
+
+@charset "utf-8";
+
+.g { display: none; }
+
+.mb { display: inline-block; }
+
+.mt { margin-top: 0px; }
+
+.mu { margin-right: 0px; }
+
+.ou { padding: 24px 0px; }
+
+.qy { left: 0px; }
+
+.qz { width: 100%; }
+
+.ra { border-top-left-radius: 20px; }
+
+.rb { border-top-right-radius: 20px; }
+
+.rc { transform: translateY(100%); }
+
+.rd { }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-85f2452a-4661-468a-adb4-08ef4f6f8d5b@mhtml.blink
+
+@charset "utf-8";
+
+.h { display: none; }
+
+.s { display: flex; }
+
+.t { justify-content: space-between; }
+
+.br { width: 24px; }
+
+.cj { min-width: 0px; }
+
+.co { padding-left: 24px; }
+
+.cp { min-width: 352px; }
+
+.cq { max-width: 352px; }
+
+.dk { margin-bottom: 52px; }
+
+.du { padding: 0px 8px; }
+
+.ec { margin-bottom: 24px; }
+
+.ed { margin-top: 32px; }
+
+.fa { display: inline-block; }
+
+.hb { margin-top: 0.64em; }
+
+.hk { margin-top: 0.46em; }
+
+.hl { font-size: 22px; }
+
+.hm { line-height: 28px; }
+
+.id { font-size: 18px; }
+
+.ie { margin-top: 1.56em; }
+
+.if { letter-spacing: -0.003em; }
+
+.ix { margin-top: 40px; }
+
+.js { font-size: 16px; }
+
+.jt { margin-top: 2.07em; }
+
+.ju { line-height: 20px; }
+
+.jv { letter-spacing: 0px; }
+
+.kk { margin-top: 0.67em; }
+
+.lp { margin-bottom: 10px; }
+
+.me { margin-left: 0px; }
+
+.mr { margin-top: 0px; }
+
+.ms { margin-right: 0px; }
+
+.nn { max-height: 20px; }
+
+.ov { margin: 0px 24px; }
+
+.rf { font-size: 13px; }
+
+.rn { padding: 0px 8px 1px; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-b74345fb-4af4-493c-be4b-aaf857513543@mhtml.blink
+
+@charset "utf-8";
+
+.i { display: none; }
+
+.bu { width: 64px; }
+
+.cg { min-width: 0px; }
+
+.cx { padding-left: 24px; }
+
+.cy { display: block; }
+
+.cz { min-width: 352px; }
+
+.da { max-width: 352px; }
+
+.dn { margin-bottom: 68px; }
+
+.ds { max-width: 680px; }
+
+.dx { padding: 0px 16px; }
+
+.ei { margin-bottom: 24px; }
+
+.ej { margin-top: 32px; }
+
+.fx { display: flex; }
+
+.he { margin-top: 1.14em; }
+
+.ht { margin-top: 0.79em; }
+
+.hu { font-size: 22px; }
+
+.hv { line-height: 28px; }
+
+.in { font-size: 20px; }
+
+.io { margin-top: 2em; }
+
+.ip { line-height: 32px; }
+
+.iq { letter-spacing: -0.003em; }
+
+.ja { margin-top: 56px; }
+
+.kd { margin-top: 2.37em; }
+
+.ke { line-height: 24px; }
+
+.kf { letter-spacing: 0px; }
+
+.kn { margin-top: 0.86em; }
+
+.ls { margin-bottom: 26px; }
+
+.nq { max-height: 24px; }
+
+.oy { margin: 0px 64px; }
+
+.rj { font-size: 14px; }
+
+.rk { line-height: 20px; }
+
+.rq { padding: 4px 12px 6px; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-fdcc97cb-754b-4285-8090-f963b39e7f93@mhtml.blink
+
+@charset "utf-8";
+
+.j { display: none; }
+
+.w { display: flex; }
+
+.x { justify-content: flex-end; }
+
+.bt { width: 64px; }
+
+.ch { min-width: 0px; }
+
+.cu { padding-left: 24px; }
+
+.cv { min-width: 352px; }
+
+.cw { max-width: 352px; }
+
+.dm { margin-bottom: 68px; }
+
+.dr { max-width: 680px; }
+
+.dw { padding: 0px 16px; }
+
+.eg { margin-bottom: 24px; }
+
+.eh { margin-top: 32px; }
+
+.fc { display: inline-block; }
+
+.hd { margin-top: 1.14em; }
+
+.hq { margin-top: 0.79em; }
+
+.hr { font-size: 22px; }
+
+.hs { line-height: 28px; }
+
+.ij { font-size: 20px; }
+
+.ik { margin-top: 2em; }
+
+.il { line-height: 32px; }
+
+.im { letter-spacing: -0.003em; }
+
+.iz { margin-top: 56px; }
+
+.ka { margin-top: 2.37em; }
+
+.kb { line-height: 24px; }
+
+.kc { letter-spacing: 0px; }
+
+.km { margin-top: 0.86em; }
+
+.lr { margin-bottom: 26px; }
+
+.np { max-height: 24px; }
+
+.ox { margin: 0px 48px; }
+
+.rh { font-size: 13px; }
+
+.ri { line-height: 20px; }
+
+.rp { padding: 0px 8px 1px; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-002ea4f5-8978-4016-ae24-6bf7c2df6fa4@mhtml.blink
+
+@charset "utf-8";
+
+.k { display: none; }
+
+.u { display: flex; }
+
+.v { justify-content: space-between; }
+
+.bs { width: 24px; }
+
+.ci { min-width: 0px; }
+
+.cr { padding-left: 24px; }
+
+.cs { min-width: 352px; }
+
+.ct { max-width: 352px; }
+
+.dl { margin-bottom: 52px; }
+
+.dv { padding: 0px 8px; }
+
+.ee { margin-bottom: 24px; }
+
+.ef { margin-top: 32px; }
+
+.fb { display: inline-block; }
+
+.hc { margin-top: 0.64em; }
+
+.hn { margin-top: 0.46em; }
+
+.ho { font-size: 22px; }
+
+.hp { line-height: 28px; }
+
+.ig { font-size: 18px; }
+
+.ih { margin-top: 1.56em; }
+
+.ii { letter-spacing: -0.003em; }
+
+.iy { margin-top: 40px; }
+
+.jw { font-size: 16px; }
+
+.jx { margin-top: 2.07em; }
+
+.jy { line-height: 20px; }
+
+.jz { letter-spacing: 0px; }
+
+.kl { margin-top: 0.67em; }
+
+.lq { margin-bottom: 10px; }
+
+.mf { margin-left: 0px; }
+
+.no { max-height: 20px; }
+
+.ow { margin: 0px 24px; }
+
+.rg { font-size: 13px; }
+
+.ro { padding: 0px 8px 1px; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-554176b2-3de0-4eb0-8d39-14e5ac5b2d8a@mhtml.blink
+
+@charset "utf-8";
+
+.lz { display: none; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-50dc686e-6adf-4e6d-be59-c21c899a7c28@mhtml.blink
+
+@charset "utf-8";
+
+.lb { transition: transform 300ms cubic-bezier(0.2, 0, 0.2, 1) 0s; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-88672ec7-8cbf-44ac-8f3d-c24849a53e9d@mhtml.blink
+
+@charset "utf-8";
+
+.ny { max-height: none; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://glyph.medium.com/css/unbound.css
+
+@charset "utf-8";
+
+@font-face { font-family: charter; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/81d2bf1/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-400-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: charter; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/81d2bf1/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-400-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: charter; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/be78681/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-400-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: charter; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/be78681/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-400-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: charter; font-weight: 700; font-style: italic; src: url("https://glyph.medium.com/font/77a0c0c/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-700-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: charter; font-weight: 700; font-style: italic; src: url("https://glyph.medium.com/font/77a0c0c/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-700-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: charter; font-weight: 700; font-style: normal; src: url("https://glyph.medium.com/font/f50d520/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/charter-700-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: charter; font-weight: 700; font-style: normal; src: url("https://glyph.medium.com/font/f50d520/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-700-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: fell; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/415369b/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/fell-400-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: fell; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/415369b/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/fell-400-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: fell; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/78ce731/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/fell-400-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: fell; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/78ce731/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/fell-400-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: gt-super; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/4a44748/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/gt-super-400-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: gt-super; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/4a44748/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/gt-super-400-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: noe; font-weight: 500; font-style: normal; src: url("https://glyph.medium.com/font/b6752aa/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/noe-display-500-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: noe; font-weight: 500; font-style: normal; src: url("https://glyph.medium.com/font/b6752aa/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/noe-display-500-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: opendyslexic; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/1c491fd/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/opendyslexic-400-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: opendyslexic; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/1c491fd/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/opendyslexic-400-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: opendyslexic; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/0a6190b/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/opendyslexic-400-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: opendyslexic; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/0a6190b/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/opendyslexic-400-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 300; font-style: italic; src: url("https://glyph.medium.com/font/51a79f1/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-300-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 300; font-style: italic; src: url("https://glyph.medium.com/font/51a79f1/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-300-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 300; font-style: normal; src: url("https://glyph.medium.com/font/6fd11d6/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-300-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 300; font-style: normal; src: url("https://glyph.medium.com/font/6fd11d6/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-300-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/3887986/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-400-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/3887986/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-400-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/b492c44/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-400-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/b492c44/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-400-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 500; font-style: italic; src: url("https://glyph.medium.com/font/54b52d6/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-500-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 500; font-style: italic; src: url("https://glyph.medium.com/font/54b52d6/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-500-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 500; font-style: normal; src: url("https://glyph.medium.com/font/df9ba7f/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-500-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 500; font-style: normal; src: url("https://glyph.medium.com/font/df9ba7f/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-500-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 700; font-style: italic; src: url("https://glyph.medium.com/font/9da4d76/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-700-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 700; font-style: italic; src: url("https://glyph.medium.com/font/9da4d76/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-700-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: sohne; font-weight: 700; font-style: normal; src: url("https://glyph.medium.com/font/cf896f3/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/sohne-700-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: sohne; font-weight: 700; font-style: normal; src: url("https://glyph.medium.com/font/cf896f3/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/sohne-700-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: source-code-pro; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/07894b4/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-code-pro-400-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-code-pro; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/07894b4/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-code-pro-400-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: source-code-pro; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/3bd49b7/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-code-pro-400-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-code-pro; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/3bd49b7/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-code-pro-400-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: source-code-pro; font-weight: 700; font-style: italic; src: url("https://glyph.medium.com/font/15b127a/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-code-pro-700-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-code-pro; font-weight: 700; font-style: italic; src: url("https://glyph.medium.com/font/15b127a/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-code-pro-700-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: source-code-pro; font-weight: 700; font-style: normal; src: url("https://glyph.medium.com/font/a9cd261/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-code-pro-700-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-code-pro; font-weight: 700; font-style: normal; src: url("https://glyph.medium.com/font/a9cd261/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-code-pro-700-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: source-serif-pro; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/76c214a/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-serif-pro-400-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-serif-pro; font-weight: 400; font-style: italic; src: url("https://glyph.medium.com/font/76c214a/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-serif-pro-400-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: source-serif-pro; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/8e059b2/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-serif-pro-400-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-serif-pro; font-weight: 400; font-style: normal; src: url("https://glyph.medium.com/font/8e059b2/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-serif-pro-400-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: source-serif-pro; font-weight: 700; font-style: italic; src: url("https://glyph.medium.com/font/7f2eb60/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-serif-pro-700-italic.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-serif-pro; font-weight: 700; font-style: italic; src: url("https://glyph.medium.com/font/7f2eb60/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-serif-pro-700-italic.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+
+@font-face { font-family: source-serif-pro; font-weight: 700; font-style: normal; src: url("https://glyph.medium.com/font/b156742/0-3j_4g_53_6bu_6c4_6c8_6c9_6cc_6cd_6ci_6cm/source-serif-pro-700-normal.woff") format("woff"); unicode-range: U+0-7F, U+A0, U+B7, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
+
+@font-face { font-family: source-serif-pro; font-weight: 700; font-style: normal; src: url("https://glyph.medium.com/font/b156742/3k-4f_4h-52_54-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/source-serif-pro-700-normal.woff") format("woff"); unicode-range: U+80-9F, U+A1-B6, U+B8-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF; }
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/v2/resize:fill:96:96/2*ZVXOu-DrSscIuko3_8FztA.jpeg
+
+ÿØÿá ¼Exif  II*                V       ^   (              i‡    f       H      H            0210‘           0100     ÿÿ       `        `       ÿÛ C 
+
+
+""$$6*&&*6>424>LDDL_Z_||§ÿÛ C
+
+
+""$$6*&&*6>424>LDDL_Z_||§ÿÀ  ` `" ÿÄ                ÿÄ 2      !1AQ"aq2B#3‘¡±Rr‚ÿÄ              ÿÄ 1 
+       !1QqAaÑ"#34br‚‘Á¡±ñÿÚ   ? ó½üÉ-Á(ªªª'n@ä®{y¢YÜk…” HV##êR<şi· {ô*ÚF>U/­µëó»—8õX ·B©nÓz,’ÜJŞ?J 8À5KÚ
+€1>f_6vË¦ÀE*[MÔVÆı šhLK€eÁóÏ¢iXc2:¨RÌXP2XÀß5.R)DfVyî9_=¢ cFáçRÉ—ş/h rÿ ì9ÅA^tÆ­m“5£˜Óõ2•p?•ªØÉ Ãùš·Ä(³‰«±œÓõx-ÖÇÖBÍlÎPãp!¼<9ûóQ·÷Ìà¬#ÌÒ9Ëøì8¦8£m«Pl	SŸ!Æ1“·üùBâœÙKpK4hÑÁhÃ,ŒÔ(b¯Îd	R;ƒb%B…
+$AB…
+![: Ä:šÃz;JÄª2}FAüäŸª•qèkù,µøİ%)¾&Fe„LøÈ$*ûŸú¬ó}Óö'â°ş±=)¡Ëy#^Aqk*¤r¼JÍ³(örÏïU]g@¾–K”°`#çpı8óš¾XJd´õÊ7çXŒRô­‚>Õ^Õu›Ë(îã°Ó¾fxğŞ©u	2œ3É8 4¡I½„õ.¢‰²{O.j6ÆŞöxŠe‘ƒ)ı¤üSM´f”Èí$’nwbÌÄä’Ç$ŸÍt4~]Í:P@Ç¹˜±;Bìæ”>ø2ª˜üÒÉ-°?Ş^ßz°¬‰9­3¦:>ÛPÑMÅÆÑ-Ñ;$e'ĞÓ/‚Ë#ı*+5Îr€|à
+õDZV£†ƒo¦ZZ‰,-Uk‚P¦õ¶0†nsÇl×7åU@5gıF?À¹r9eª=Lòıí¤ÖW—V“.Ù`™ãqpTãö’?Å6­‚ó£ÏSKqye=¤7Í,ûâW.ël,¤r Èæ¢ôM3Ué›oW½Ó\2Û5¬† ËÃHÈÛØgÎhB”üÛ>²­ğü£1^Xè°ÉÌi÷™¥JèšŠéz­óAë$İéîÛ» Œd~j)W añRú7ÉJu¨If©õ¥Äqú†9T‚„`{ÖÏZZÅŠœxux¸Ê`AÛcï7ëî¯ê[c*úZ]±´XÄ­*ËœáòB‘A©‹ôÑúg§%[ë°­*»fß,ò²ãé–?èT>‰w¨‚†æ‘n%Ru;ê[\(ìfQÌo÷À?šÅúÂ=F.¢Ô"¾¸–yVOéÍ#n/rŒ¤``Š_‹ÈåM(ĞóƒŠÌx|*ënXÕ¶Ô{	*`ÜB€ã€{sO ²’Dõ"Ë»nå»ãóL­®î¬çZÊQÿ ü†È?Í_->%kp Y,ôÙYlmò±®8óş†)‰gV0uFyÕU<Økşå~=:èÂÖM¹Ævàg¾3Svš£+¶2ä?î¬šg]u\‹k8¼‚Ig™’ÒÂ(Q¥ì^BFNÑÉ=€©y:¿¬aÓm&mh¼—;„1ıDX§¶jèÙÛ–$Üü¥„¼İe9^è^‘iúşşXOËiònHäqšA¹A ìŸ¾*ñÕÒëWzdPééµd¹XnÈb5$e‡ˆî{ŠºÚÅa¦ôõšÛªC6Ğ±ú> O¹æ³´ê¿”³H`vI'rêyşX¥Æò0óé;q±Â­¥ŠØ6G¬£é7c¦:ŸT°(ÒD%h”n(J9$ùÂœãŞ´O‰:„V=#m§ÅÈ¼uUÁÏÒ„9ÉÀV$×z…ÅÕÕÄï$Ë¨]Kö®2{àQnu«¤Š)dfD9PXœq3Ú¶8/"?kö’œq^&ù€Æ¸ÍJiséVóJÚ†›%Üe0Š“˜
+¶V@9¨ÎšPŠè"ÅEêÅX®¢ÇùšïHõOKÙ^,vzMåœŒHY$¿ßîãê{TïÄØt»¾–³Õ$—zE:“Ê8feÏ‘ÆGú¬_F˜Czİ“ëïŒóMï.˜„µK©¤6º‡'İüàö®oíµUDúÆù3/Ñ˜KQggZé¢«ÛxÓ#Ÿ4eÀ¢G\víì}«ª'—›ßLÓæ¹ô˜ê…¢µ*…Ù K°ğ7Ík=Ó3]_i—VR"iÖJ÷
+Á@Y$rê‡“ÎÓÍQşèwv7º…­šMp³x¤•ÀH@
+å”w-ÍzwO±±]6s$Ò)‘$‘¯â³Ëœ&2¨~µ®`ÍS,¬Ãm¶ë<ÑÕO=•´v÷H
+åNAÈ+Y6±ªÜê×Íu8E;UŠª1…8¨ù%’R¹c€2NOAŞŒxÂ÷ùvœaÀ¢Ò„dbŠi3ÜIàRËÀçÍuoæ‹Æ9¢Ş£FIV#r•8>ŠM¤Sİs]SIw«–Ú=2¤`şìøÅ#D›${S¡±ø¥¸¤jkNÒå´ó|Ç¦c)W!ƒ¶ŞG#½Hš&ÅğÈêt—S‹+“ĞN“Ä 9fHÃíÈ#†ƒ[¶­wªè:–¥ov¥1‡jãmbç9î»@ûVağ²Şiu„úIipí&If÷8«iVfŸÒ‘ØFd‹Ğ$¶\#HåˆlwÇjYñãÏ•ävõãhí‡ccø¡B…2‹¡¨ëD£Š!˜lñ]\“D!„kŒQL)I¥Kç`ÂsÅZ,vÍH[Í µ!ÔÆ¤œ1Ëoµ5!½…Z:Xék½.¡§-ÚAb³*™0V@0
+ûîª³èRÔO ç¿y|k­ÂØ{™hén¢Ñ´Myn^I¯&™aGbÁWéPØ8 ã<Ôv±Öúİø’Ş9¤ÜG°m¯ÉÙç¿ŒSéºgJ€é-”˜ƒM¹–î<²‰¢Tuğ§Ô ‘àTËèz¿R^İèÖ§Ğ¾	-xØP ¶&Ü$òµ/Wá|C—C;1½ë­P0+Äh\zÕUG!}.ÌÿÙ
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: image/webp
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/v2/resize:fit:828/format:webp/1*ZFyrLwqPUrXQD4-Ie4Y15A.jpeg
+
+RIFFÈ]  WEBPVP8X
+      1 v VP8 $]  °N*2w>m.’F¤"¡£,yªØ€‰ej€È@*…Gõ‹äñhgÌ8ìsê»	ñN°•¨kõ¯¸ßÏfœ‘öÍ¨]µ?¿ïïç¡~ëÿßêù}»Ğ/ÖóKøŸøÀ^bwáşoş×°'ëïJ- şÕÿGØCö·÷ÛÏÿÿ»/ŞÏÿşóŸ¼¬D{æúW<™:!Àõd÷¿íà»sŸ½}ÅÕÑNy€/Ÿƒ¢c,å‘_Å>8óB=£xPZˆÁdšØúÔĞp2¡­^On6µáœëêô¸®/ıZ,hCïHœE#>!ĞÊAÜ¶TÅÙ=(·-ûÀaU~ï–­ºĞ÷®„nWNOÄ¤V"ƒc{ _È“â£¸Íà.*ÀÆœgÍ›õàü×;CWøWLĞ^XkÌ{	ª—pPÂJ¾¶øE¤K%aºß¨§º_*Â—ZÁ÷»'ïÓÔñ3ğ¨ÄZO~
+¾Š9à•{<×VG¸ÓüÉêç°,^Ù+S©8>re>Ì¹Mç†ÄAd*G5XU=–; »UË÷>7=»Ÿ`ñ|]áÖŠ+¤4†0OvBR6ä»M:%´D¨À“4|â3Ö­ÑùÎe< İ'Q,ùÆ˜l‘U•VUÊú…èôÍøåM„õöö¾bº3~Bë— ©ºR;I«À{(ÕBb¢¾ï?.Şx`_!¡­gÆVprÕLâl#³”I¹÷Ÿ¶î\lWÚ@\â-¶<u˜‚µönA#:K§Ô¥‘Ÿë³aÈ´à;çíb‚×I­æ*ôrF¾µŠû0
+Q”üjlb¿‡¹Áˆ
+šî7eÙmÑ»•%)7yøzÙ[Mº¢ê»ÀmñMâ¦%2ˆ»tH„YÃXî£pIã%¸âØ5±EYºñ2†²Ç0Ì¹t­hÁN™,ÊFÌë}ärçºZ Ï:^%›_%qê.³/ğVl.1¤FÄû/Øå¹$˜Ñw!âÉ°°{Y«o?Ğî-¥oe·¤J½B,&0á‘FõÛ>Â#î„<dƒÉöäºB…³ÄCé®5Cg³!*s–î(Ùå3ğ$¢d¸ZÆji\Äv³ƒŠQ7u+³@¾HáˆU0o¹ğã6…(U]r`¹“°…Hn,,©T:ğFŠ›€Ä‹çóæÙùıšœŞÒQH"Õ	yOê§„Ö£½" êexÅ&3è@/÷[1Ş— -M©ñd¸²€šqÈ²Â–§“ŞYR ŞÇëÓg“¡(]ÿÅ@³QR÷ï¬ã"+öv3ù¨âoÇ·P6(LdºŠ÷ÊÅU®¼†‰ë¥$$t‹Óq»t&F*nãRL3%6DÚ©]zéOLÛ@ù¾ÎQETÚÛ·W'c[ÚÊ-Æâ¶Úæä¾ˆù1ÎçPWù‰™æÉÉŠC–	ğ×;	ßM[5–ã¦Oğ4Œ·õ¯q‡˜D¶‰ã4<åm]—Õ¢G]ÀÑ>R-±u²ŒHb ßØîeÅ^SöJ0İfjNĞÏÚ”ôS~›%æœ^±ıIHÓ7°Û«‘ƒ•s1%:ÿW®^œ‚æRêÏ¨„¸óÉ3Éôú3ûr¦õK‹İP‚j¼5íUø.´H…±ÕV! ™ù9.#Gµ[":HÖ·êµVcÒbNÊ+>éïJ‘ïc<ĞTRF-,1°C)	Úìè—wn$ÓiS}Š4˜zî°jëëÓğê&ÎYËL™j§G¨m8Âùîûšˆì¼v=/ˆlcY3	¬vé…ü FÛQŸWË$ ïçzœ€ŠÍ#òækEz0aX¶ÓÂj2Lûd|0Oñà{˜rwàÇ½©ª"UK‚v1]ù¹ŸNj2ÌbU¢
+‰:2…Ì:2ÚßP¨$şÆ¥J€oQÎkñó»|½æBó0²]ªß”™Ö>ßú±ò6Û†–•vğoºq¸F(&Şí¨Ë¡¨ˆ·úşXIşBöø<h30¨‹~ŞïhM&BX”+3€cÎùAù?ş´·êa`G£½¶ UEŠh_Y¯õâïk¶îíĞã¤/±*(°tÀ¹iOõaÃª–ç >ò¬ªí*ŠôüPŒöÈå_Uû:îæ± Æ×™îñ¾ckÊKwö‰µHA\eÍZğÇııÊçšÒıá›m’º K‹!¬	_‚§ 9(peZÔ½B­#¶·ÖItÜKÕáz’W:ûWÍ5ŒãÊè¹Û
+„R¼S&Ÿ5Í'…j•˜ŒÚV]ÌÌH+G3Ï“×0„l×
+öëm9;„ÈY¨ñºl_/LW§*×`¹Ğ«P&3ı¾_næ]`FŠbÓ}Æà‰]C²+z·ÆwµAF¦›P%ˆ. 8ÓÅÑa¨SçıÉÛĞø¸k¦çs¯µÍxÏ­ß8ìGaãxA'ß†‚º…ğ$¼HÊ²©´æv©l(:™ª”_è^vaI'êaäï şg6A6W§
+2T[fƒ¹xqëÂ‚ØXÕ¡U¹ÓÔø_à·¤úïéª9Š–RÉ~¿:É=*¢±¨Ä$Äù‘Ã?fA‚…	#C¯Ùa?™u–Úä‹ˆ>í±â”Øİpñ,†À´§ó¥°t°ÈàÔóã4ãWà7ñ‘ÕšÀÙ=tá7F> EÙz·Ùz°Y8@¢:‰Ÿ(¢ôèÄû&4ĞK³2³W•u¬ñmè¡J­rs9»K°°_ÃÏâÂÄD<G¢Ş	:Õ;çT)¦ªäá'7‚Q_m,íhÌc0Ë4úïÚ¾ÏÛº|¨®³•W™Œ£2õÔà“×è3GrÓ´"n27N¡
+psğ"Ş×CusŠÇüs$ñ¤œğÏÿûŒ™o†ãí–QËHl÷ËƒğÆ~D”.Ÿ;0$[dn©„ hÈöbôRÓ%ë¬ÈglÚ5¥ry¤D’øõ.ÍƒÃ¿Äv šA±ö¸¤•HYøbi‰TÄ^(AËŸ €-½ êN3üêFÛµ•viÎ6[R‚©è*ˆ•]0¸ì•jÓ±•Œ‘_ÍØÊT³+îñ°[U3*‹Ö&ˆ¤(í¤5á
+¯‚¥‰ÏSøf ŞÅ‹hûeE¦+TûıZùôÆß_@"v÷XE{ùøÕ—rl¢Ö2@b3³{šù^ß¬‚ŒÙšÃÑVboç¥}uòââæPXö©H<âøªÌçDª’¢îñ¤¿åx²²]z¦âóvĞò¯{í~Ì¶¨-™Ğğv|Ä`dY8Z&Twó.ë›„¦@Ô˜ª*éØ/ÕÂ7xÇL¶ÖœbÓ¹…rgÕò²İúVÃsˆ1déiJ—Êç '0Äïí[8ğ‘¸H6ÖR´ñ1ßªlÕOa›Û7šALÓ¼ó©]O5úwç¦#„¢ÒDa;Öşq¿q	VzépVÎLø~°HÙøú)D’W[Z½€ şÛ 5FzŞX¢4—|à÷ÿù ¿¹äZŸ¥˜®OáØÅàË`Ë…Kº·Vì	9‘ÃtttwÁå¨x¶µ¼{¸¯ïä
+Á•Uù÷*¢•ƒà)Ì|ë£f9	#nıÍÎÒäÀ½×±ÍH Â"_¦lĞ"=²ñhÄ5ê¯ÉÏı³à2qÇôÿ>^çÄ@c¤¼¬¾¥¥Dâó¬£€JªŠCŠ3‡„–°Å±­İprõM#“#ÍÔ&)Î¡oşi÷é(:¯¥İÑo‹Ğå…=7Ct¢z"*2‹eÇH&,p?g¿°ÄMg1š@Ñ…¢eSã².ÂÎË@ÒqP5uŞ#pïšÈ`Í{H =3}.Ì,ê}F9T‚8,
+H›¯¸hí:.äµJã›)˜whD`úåßEè‰FáP!£úø«`÷8™ñáÛ³™àş›Dt‹îF)ˆˆºgŠMAÀ7’N•HÀ=[ëóâx T/ÿ#ÅúÖœML
+%S$Jö}{&İ9²ÃìwMÚåÖnX…µ"xµ«à0öÑÓ¨JˆxQm‰İEáqÁÿ«ÇÌÀ‚…§:lxÑ×Ï”[Æ=ï6È€¼&´E	¹”‡ıÀdIéKÎ¦¶”@F©×…ÁyÜYp0—Ú	•òÒÏJ·x,øúi\÷ĞqLïŠ˜"]Ö"ın /©dƒó;a«~ãsÏrŞ—á¿@©‘— ‹¡¢è kô”LøÃ&On"«ş„<–øMÎ„Z£÷
+Ğuoõ’„¿¼…T!7Ò£œÏGüÄz³’ ¬\ˆ&@âœ8œÇîŠe6HuÓ@ù=Àãq$ûØ‘ÇP§ñt°`¨!Å2yïè;Ú§g˜òPìù(KÌ¹§(âš÷¶ÁªÑ6ïBÅœ‚v|ñjL¹™H¦ƒ‰N°4¥°•K”D'ñ-Âù0“(Wc~ÂZˆäXPO–†•Ä¼ğ·x;ÃŞî†{ëO˜õi-ü'‹ßÇ…Á7µ±¢³MNŸ`n¼%ˆuÉòl}p["‡›Y
+ÏõœˆˆóhÃéêBÆxmOÃHöšÚ±ŞI‹W_¶ü©¯=«¾ãWÓâ/Ï×­“o8æ(YúÛ¹ShÊLÑ¿!DÛçi$á
+¼ø†lÏèH_	—ß…¼4aËs‡w±ßovœƒ5Ç?"ÛÏRhT½P¤YmUæd5XÂdLX5šğädˆÌi†İÖŒšÙ5í’®Çß¬]2å4º-ã=.âê‚ÿ ¸¯É‚tÈ.àÈ¦avz«d»`f'Ì-‚àiÄÕŠy0¶Ãß48©OCÕí=²‹×_„I(‚«dÙoY¤®d_C[ÛjĞÔ	qÛàbrÍÇ•ºF-íªOäEAâò¨ç Ü™	šª=`²—ù•€£‘<ŠîïÑƒ‰™A„¤^C×[yYÎµàF­	¹ü¸2v@ °Âbô“³Á#5&¾ÿn‹+ø^„Z÷Å=Ëã0Ÿ·¿
+/§ì)ØTÅhŞ`K||ßˆ­¿¯,ÑN.J7ûëôVÁ'­i®ImF0•+Xtb¬]ºN¸Ñœ£¨lü¡o>?ƒâì€?.3iÆ·ípCJ/g4±Å¤´;ØÂÿ(X)Ô%å(½CPêŸìêÛíPú+Æ¦»¼Èìú½ó…‡FÄ`­PƒáiVáÉïë%}E±ÎÎQ8Î`qùHËiZû!Ç3‡Õïlgš€;U¶Ï‹©äã†«=|^ßÏíWz¯‹„1U¼YI#„”ZÈK¸ér×rjü­qfĞù£	b½ï8kõßoš$&6Ó']LO‚ÄBÆ«ÍUòÕÂù‡€«Ú…¹8–ª¯ˆ·—Iõ··õg¢C†¤ú-•ÚºôzNÛì‘S¿fZøñ¯u!d†”½ş°Î2ÚÁ*qŠ{¥Çn™\¯ÚŸG*ôµèóüş®A:‡t£Î®YÈêºĞ-â'Ri¶’)ı€¡R×H4·×ï0µ“Jü5ß©ü=÷¾É(¦Ã6Îöş¾#Œ£Ç8œºíİ‡èz4”;ÉyŸÙ79o¯¶³¼7_(¹ ·4N¥mş ¶Ûk{ø›?;áIÜå€l¨T22ã'g”íÌÃıktNg’éÌsâ'™ó¨ÁU°êÖõ§`µ¸²‚ˆ¤’E®ä†ˆ,»À1UéÀéCÜ6vÑ÷dá	Nöç—ºÍ«TÇçËa%\Ã2IFŸ¸*z+ĞİåÌYMÁâ`¡_Ê(“/ù[Š¡-'JÈ—É“Ÿ
+í‡³•‘O‹*±ÊòËÈğíÈÙšIhM›R¤¹xm<ïÂãÇÅú´Ñ¨·c“änIˆ¨Gp`]{W®]hÀæ2e6Q²‰Óõaş÷™)ôö_ní ÙùõÃ²zÇdİÃ1:ÄÄşró_ PHºÏÂB ãù¯îÿÅ{Êùu†QÇğ¹ºÛåSßf—Ñı•ØÈ/’rö²Ê@DÈóhFĞ”ìÙàAËñîeŞç\G>kŠ€FRõªLí÷oŞÒ¡8tPêS{¾§YíÕq“×[ÃÙNèÀÄÛ•Ç˜iUå®n|îƒ|aà®Jİc$’eÂØ” õ|‚UD"W]öıš7ºèw†˜ ş·ÌHPÇñp(G"°kDdzï Tù¦A¿_ĞFxÃz’œ!ÀÜ­O—4TD…J×ú®SñÀwšRMÍÆ_ì·d=C?óvèğ™U%Øæ{ø»ÁÃVçàJ<0 ÚÒÀ5;¦…ÓyEÓWæ"µl^Íš†µNDÓ>İä/†¾û­à ¬xÔÈàÓi4t…ìSÄê_7¥/Œbdì#g¶,zéµ§AÀ›÷0lıŒ§|#‹ÅÔÌ¦»T-Ò—‹	¬ßXJ¿H£Íœpöá&]²ÇŞ/ˆ«GAŸ[tfPÚ7JÇÄ¿D÷¿wHçKY#JFF•i¡u¦	öWâcc€›‰{j‘yoÉPx%l#&
+ì¥Âpù ¯$èhØ’ê²s3gõ(ëûş§BP‘¯ëŸ¨â{Rİ.ÚÁåy:ñ¾‚öÑ…É<Î8±)ƒFÃöh ÷DM¢W BG¡¶
+s5Ì
+EB§"9¥!{Â?ıİ÷:[Øåœ-¦<{x%¯_tÏŸ‰ î·6A9zĞJ3'3«³z“|‚'ˆn+ñQˆ0AnõÈ²9ğüKF›
+Å*°>ÁpÛ6—³ŸĞíQ«cÅ[»AptLî…@hCÌNz[7öOvÀi°e>
+§g´}¾Å¡û7×®Öâ\l–KÑpÂ$¶Ã–G]æÜYsˆí¹‘’ç¹/UkJÅxtè³ƒ1¨ëKXIÑÆKÖÖ)³¿°>°ã+Î[İ¬P\ßVO3XKuçhò´£¶7–p'»]JüÃŒ±Ôı¡ -§P–ÌzŠAiBWk}½—œ]t4…)‘†ÿ‚+hÚ'›|ğç§ËDaÌôø+mà‚í1¦\€})zí­>ôo¶*)ÿú÷aLĞD=3ÔÀˆì/¡®Ü3ü¤.¾Ü®Z:{•Îğ$VİÑCúêöë†‚+LHÕ}ÊHüOhÃÍŞ÷9Şwº5Õ¨Y#ó3‹¨T©’ò=‡î€­F‹Åmsgâmş‰Ù;:'°—¢|÷çê|í¡ãşáÎ	amÓ…òàiƒœ3eÛ[$v…×vv	ı+¥fS¤JŠ—!]¤UH …jü(”€õAº^Ô!=IõsP×ùyÇ¶f˜š£¿yD~TV„æjû!5¼#=à ÒÊÛeÚä3vŸĞİ_Í–“÷•2Êí*¥ÂKtêwäd*ÄæÜ\}!jX±š£g¡éÙO‰{'r‘h‹$ûséQôµ§ÛîA#ñgsóv]í[ë^´Øºi"¦dá46oF\¸ú¿>=»¡X7Ç–”›w7¢é+f%X6‹éüÇÃÑù`{wàtg‚ÿ›?A"ÿ¾‘üS÷Õ³ª¼¾ÚÉ­û£~_88GÖxz›˜2û8ô,p%ÅRÇr¯!#Ë_ôbéqÂFãb³ßsğëF…€®Jò2	1Şèî\}Î´ uwU°ú¢¿Åaé’.P¨úÙWãÑü(WpJ{¬"^‚µ|<©Ş· ×Ò{wˆŞ*óÊú˜‡Áo2„¹·Ô©É ™şÚ[
+‹ÖNödgŸ¥Ëàİ<?R›VèÏØlĞe²XÑ3îVÇ{Ûí'°Û½„>q‡û›Sj2Ê¼Á x³²ˆP¾7íî•LÂq¥_”Ò7ÚtgOÔÌ­gº,Á«x2ö¯†I  ×-!#ßM»&&æ`R'•§«
+fÄU„=½>˜“„.A”®½Tê!¿QSÕ3æW ¹ç³3És¹r_Ìª¹ıÃÉ).ÕLÉÈÅt¥¡*!Ş‘ÎÑŸ%–J‚‘0 nä÷Gò¼õğØÄˆVPİÿJ$)ò¸hü®K ŒF(™.}™iƒS¼‚B“k/Uãı™’¡µšVØP$¥#÷(æĞzW`]§ó¶VàÀ²
+)ë»‚F»GrìáÂĞ°ÌÛS-øQkJeªœ[)	ºÛÁM¼©W
+2ÍÁÓDË(h<[gœÍè—5Öê²’Ã¤ÇcÆÃ=bW‡ÛÆP¸]öPOŒkYü
+kAIC*PÉVÃüÄª*@Dã3p‡—­Wœö\SS§<K“9)Î.¡Ra]$Cğf¿(Æ`¬Á€=ä]y»{<#…aîe=âÄN«şjJ(_
+~•`[L¼+Îà+ëÑìR½+K9OF8îeøl5×8€¾ïF² B0gÕc%ª¥…q’¿¿ó‰Üñ2‘³÷sp&‹üç¦5±àGø! <¤ì$	MÔJñä¬+ƒÀ… Dÿ…S&Fqs üclÒ‡øÙN";òï¦|¶oDâOŠ4Æ‘Î4x,cò=	@Áqğ¥Z)Í™}Üİ³mÇİTĞA’AiUOs‘÷",bıB-î¯Lùö*úÜ—v]ú*5§C»:€CH…rñÑ¦ø>uiaí§ŒÕƒ€òĞå|Ù¬*5ş iÅ-~(ô„`ÜH8¤Îom­PµkÆ”_[§3r(gçB×ëã){Ä=áë›Ë&K‰¥Å´§@ã›:rãWQùí]ÿMëÍ×t3¥şêë¨ú[òNP|Tš¦.‰ Ì!­“<ÈİgŸ©å·\²‡­¢Q­’ğe  L¸}ª“²ÙsOnÎÍ'YÑw6½‰ékî`ØxUêÎÅ<½+2Ã#])´d!ĞÜEyLZnä}òQÒr?UÇ^ ñwQPvÏàÉ ĞôÜëMÁÑ8Ô9zĞ+ìÅÊ}¢0ÿµN–ÙnSAÎ~}[œd=—^fâ¼Tâ0ø\ù¸yÓñHèCş'
+€»èÔÌõîŞù¹`–ÀuŒI Te"ŸíUd#«¼­+…’Ä÷º¯Ë`E,óÏ–Ivø~ô<E½ø±,C3FÌC‹#—-—µŠŸ;€VÀ`ƒ Lgâ¤ú
+G>or§JY³hÏ~À FµÜc°¯4õDKhSO8'ö»õ;F¨›\ˆ’"ªzA0£f0ÜD6_I{	T£³gdÙ~KÙ¢S	hr¿€ËWñ«Mb$ÃÄ™]p}òEqá…6}öiø<Np·šO
+zIÏ#jô?#ÍC
+ïÒ–Àmqì[×†zÿ2ıU_Ñ«š·î‰¾+È¦Å8gØKjâÖLY÷qëX6ƒeàÖ¤woUD8ñ>½âŒğC§ÊqLb4™ØCa5#õ²A3g5Ä³\ÔŠºÂœ¾È‘ÃÂ–Iè¿‘8À®Ùâåa‚ü2TR­ç›‘pào' _ÍêŒfÓ{ObÆ¢†Óóä‹&Èì´LçÄ'²È5@pbÓy¡‰Ğğ·é\²¶£[®xË‘l[Ü¤†F»Ëqï6©EãA
+wS 6eÅ³;å©'ò=(ÈKÓ>Ø•¶JxÓñ;•Ÿ?2‹dH+áî<ŞÒéECnÔ,4ñXbçë[÷:^¸ÌØdYü£/“—z)C‰­kıœAj0ôE¬DÚT_DyŸ–÷ûª›Ù9²ë	jcÌ‡Oä¬Ìs.Ÿö.Úö^3KÓÓ[uåSYŞ€Y´wîiè‡‰—iÄ,\M3ûDQäDrkæç¥©Åà
+‘™Noˆ4ÆWâ‚ÒX²›ph*ŞÂ´ØXY„äSö¸Î"N©O%Bi“ÃêØ¶vg«,Í$(½»a©:Û¡8´kG"-VøDÖ—¿È±‘ŠÎrBÑf¹‚ ¼Á4¶g«_‹ğ`ƒÄfÖ¾Yú/ÖÄPÂ1w$PVè†ã/ …3»Ş\Ø†ğ×Íçllá;ı‰šâuQÈ¯\º¸Åÿ—Ô®Ğdê )éZ´ï‘º÷©LIüˆ™}í3åt08p‹–é‘Ç¯=ğ`iVCâ™õ‰1Z˜næYX1†WØç™!ãö¢ÇÛˆôló.E©=q­Èt¾5ÎôHíÜkœÑ£†ø¬›†IH+¡õ—-q£ó¤,JXoü­ 	D5,àØu¹×i.¾ ‘YWÔ¨¥TÃˆÃHÍ•Áûö™ùˆ’@ÆœË‡Ù!V²;í+{·â‰ªW.Lÿkş@Îğcç”ÇC.ÊHÌy$DD‰DÔ¨|(æ™’ªúC{Ï¢î^Œ½ÃN^õ>¿òtI{ÇŞeÜ˜“Ñu{jsŠ «Ã‰Ö$=Ç$ĞîO7†»îX0¤úôT2ÎéQ¸}–¿?`¾|Rú[¯ù˜N•]ßê¤Y õÒ£ö¶ô˜˜j%5Œ¼Ucùó >YÚ²†=|$Òë¿V_ê¨@ïğ«¹(m',I+â^½§WŠHèˆé²TXÇ„ÿ”ä¦Té«Ø‰–ç‰–ÙäÅãPÇ·ïşógO<|8ô ü3·±$gËgrû wZ(Ş­ƒ•²oÉ›¿ÇâÿÅ¶¬2HŒs@›ij¾^E _	ŸŠ¼@å¸M—ú”¯T5Ïoıº×ãåD(+qMuì¹«r4àivõq¶"ûwª,´ûHfh&gà‘Ç³”ÆH]Ìˆ45™’£õÍD?çj‘‡M¦ˆšâşRë°ÒA¾€¾7ÉNÅæîq«IDu
+÷BTUúÆÈ£ÂvAªµ~Ê¼h?2oÓH¤šÁäk{Joq÷É7¯Zú½¹ç!€[Á½n¹Ş‘Ê"q®†){5/ƒ¡÷†9wºJèîJP'×EëÖò0æFMVhO¸9ÄQ®é€8°CC3õ­Ál<n"I¦…âyş1}úxZššÇ>ù›:D7áöl¯¶ÚZá­:¼>»Ày³ ;ÅA<ôè¡¾œZ›£š*)ît:cÑ¬(•“ÿËÀn\ØıÇ§°êA"¤;¾ˆbñw†ø&‰39Û
+O?gÎ¼²ŒÊİò'#@N±}Ö£Âç€.–ú&Â,»j¶p©]t½ôÎFÍƒIÿS»Á•3¥"ÁãQÖŒ‡qÏß¥¥Eö•¹ !©~0üœŸ[zÒzd·K)ØâH5ÔÊÌK+<÷UıŠbße(5‡îÀÒxëœNîo¸tr*I±ıéĞï£!‹6\ôëøò67T]\¥I‹.Ë{¸£R¥Pò”´.Ó'¦%	x±Å‹“~‘:Ş£/CI1®ô®i•Æ¦zçwq!0¥ª–ã5¸ú~‚„?Ë%ışÂ³}t‰zá¡v£%CG)Ÿ˜=áòx¸+ãâ°ÜYö3&!øázƒ‚˜7S(÷¦hiª»Só
++}”–Şãî@Şüøí‚›Œt™&üçœ)NIİ¤qíÇ^¢†UW=»çåïA·Ì·°€€i²ÄÚ;[ğÀ”ÕèŞ©úÜLòšAó¿&‚·Ä:ÀwxfS^=‡™cƒxÙªŒd!ñŸ`*óÿ*ñå?xD¡·ÉV³Æ'b#&2â¶%kŞŒ£õGÿiâğ7«Ååa½pNI6r*-U¦G¨ÌNwb¥l¥8ó¯æÄ¶My£ÂÜ¡aa®Š,‘¹¨úQÇÙçşz=)%$zÀj.»è÷jÍaìúr›i½›|˜ŠŠ,0ôŠ¨”ñP«5|ïGÏ«¤öVÒ˜şß@Ñ7wSÑGÅ_A’Ø}F{…ŠÓ'ûÈ±[^ûÔÄ4eÄœ6¨Y~G‹Ù,±¾
+ÑÑñDîã–÷V’\«·nûJ;‚ôbš`ô
+áàE	DjÕ·ıŠg4ğ5r:‚Ñ0v¬PĞß¬=XºX@êWd0¶F`•rû©¹Lµ20ûT”»¥ëÇç<Œ»'áë×ÜËì:£ì
+‚ç´L;o<Hm¾ğÌgƒÑy[Lj”¸»’c€š(¼PâEb2{NÎ¡îejÕmÈ¼«v@ÍœVuˆ[Âé¬«;š¿?riè^’¿Üô. g„¤à¥‘;
+qÆÕ'r#rÜe¤ÓğËê´"ÎT•¬ŠTág×œ^#Y@÷Œ2_,åyc¢w§$OĞá  ÷ÿ‹ºÏïª·é÷†ŒÓCˆé³öÊNG„39¼8ú7âúŞìLTØ+Ş@„«9x¢ï)7İoüFôB}GÅè™›}š‹«W¥Ò²ÕıºàM	İˆ6ÙÊÙO«ñçÇçg`Ú¬Æ™feÉğ‘ÑI…ŸëÜòíå7²§®BïıquA³²‘åÔ§4ÍN¨É„¸ñ¼ô~İ})ÿx1?óëÃ'åôéz5¡}Ûrº_M7Ëô5hû‹­Ìx·šîĞ¶-)¸±Ê:¸ì/E»³RÜ¡œgKjwIëá_ û8†§‹V—8*°îß7Æ;í­A€ªvjÒeæo™âş·wşş¢ÚïäĞl?.Êì";L–kYk\#|áüÅbÇÛ!npsääèùéV9»­\Ô)‹mA™RiØ•)şØ±¢ñÂ=•ìQâq<EŒØ’F’¤Uµ‰³Nõ»ÙK³ŞTVêe®ùƒ¿âÉ zÜ¶M
+²mÂ¾š'‡¢Ï'‡Y¶˜.®%…n~º³CÄŠ÷•îiå”È99cXŒSóõÎ]p[×çÄÃÛâ5oËíÀé¡›¸ÚíáŠ	¡vB%2¼3ŸŒµ%âOÊò‘>ş¶Gi‚¥Õo÷8İf´¼À­”öÊsİQ43Va%Å~´³ñPÏ$8~AIí£Ç¶/§xÂ„àºßIKìJ¢¢Š“t±l1•P•€>‚ß„Sw:zlne-½”,g9/‹¼mµö¨€Ò}ĞèÍD›Çıüäíö¸h›/ó°¬87ZlÂ-½Y×5-dØp]…HI ±P´ÿ.ÿ'Vmâ“E‚ß#Ùî®K3É) ´Â¶C@„\AWµ÷¯b¨ß±)L†MÄï!9ôVJSÃÂ|r]ù)”8‚ªxpwe(²?T¯5º‰‘o¸÷‹:¬¶g–ìuj:³LGV;|*Ş!¿vå"²7åXU…¾±R‰9%´š­Zu–mY|ş„ªå™sŒºıİR¼W™|èEEtì%2îî?ó±•=Z¦0( Nˆ)J'ùŠ;¾¦ÀV¶;ÚOş@ö~´8jÓ\MÙ»ÿÌtWbõE½C‘OımŠŸkB‚ù&ÈoMí<Æg§­'cş×á;Ú ‚Ğ¨ş]8Åf…àÕ?,(z;B¨bqÎRJ£)¾oÙ,Ë0í¶?†¿¬“û¥-aÅãlL}º`ş[yPôe¨ÿ/L¨Y#19iÅàò(Êh1mæ°à–œ·>ñ£9•m óâÃY¤Fâ¿ª+ÙkLã»$uåóÀÜ¹äø&¸ë7†Ÿ—©ÄÙç5ï.O(^ílÀ^¦Ì)Jğì£3Iúh…Ã–©âL‚"qîÙQÃT¥sôÚGpÊØ½¢„q‰ óÔèM³”J7‘ëI¥]"aË[sKŸä¶Î–Ì€ç#öiàRÈ%“œÁÉ–©Ğ)óSc¾­”oN;ìMCŒ€ô»dĞËÛ9¶|aU€‹´ÂÆcîÎÕ®N¼©$‡7%a‘
+÷m]9Ü©ùé3>3‰Æ—›$å*& Š¯62¥6­Ï÷o¢à=½ÏÆ*F<É™¹GßJ&ÀHµe­Íï¿sñ¨WDå0±Š§äÆ_£ù’X€Wñ¸Á6$ä	O!~$ašVıÎm>I\è\á’“9œçR¦²!“¶Ïº‡oñğ^)òx¦F)¨]^¤¶\!€ä‹àX€ÎÜ
+ñËrcıÌÇk²6ywDõÑ}Î!Pşœ¨nè˜”µDãyˆ¢ÂÕn-\$ç8­ß<[ó»*5*À©o_õÂò,È¼&T•¬Á.§™¡&×É]¡A>Ë³cîõ‰gÒY\KõdÍguÀUÛvàt+ÎÕ0c‘I£)² N?±Ì•plKPú—%Â;¯ùÕ¦Öcz’—C­w›ïšEóÊ»…ÂËùw«”W8†Ô"Go*¶È0—e.ñ¶»¶x£êe÷OEÅ˜>¯€yZ{¿€¢/«¨(UEDÔgt¡-<ş=Fv+`¦€5d~—-ıêş®»Ã¡N¿V–iT‡ò‹·$«êÄ­–Ê+~ o ¿;,.6ü@¡¢jv§¹lCqõ µxJôŸÑï†¯stßkÙúE÷YBÌ)ÖX¢öQ÷wúå¦ cÜ%Af9ø)	³{v@Ï=155ğy'	ˆÂÖù|Ëõ‚5üwŸüPü¥hı5q=ÃÔÜDyçS¥ÌŒwÿ]¾%xL+N‹½‰…Š6¹efT.„~Hš?ò:† Bğ"}M¸íú0?ò0X½ê¨L¢,Ó ÔH¶1Zm19ëãµÛ/¾ù/D?UVÅ2A£>rgÔ“õ†3vú=†ˆø“úÃDÁkŸè­DŠk¼Ã¸“{µòğ®Ó5p–ùü,ÌÍ¢j%²ã¥Y~+å²LŠ-Ò(bB1ÏJÜ×h‡çÃ‚%à×Æx7>ëÃÌäüƒdÄ9ÏGÖå¤j5u¦>¨Â•üó,yîˆé•ƒÚ‘VÈií‡YT¬OXîLƒQ´ÔÄ[âU×\(èĞ$ÇŠŠÃ\ÄúGpíR„OëI9œ;øéC¢İ&Âf@+D±¢ÿıaŸ¤ÖÀ'?jNn7+ûüWP‰O"ò¼ÅÇéÊcß.Äï ¨TwÅ*	;îQ¡äİ?¾‡N††¤ùwÿÒı¬k‚Ï|RÃ41Vêº¿ıC9y¥ûö‘Å>ÁF½B™ÃĞ6ñâk»* “ß!VÛÑÖ¾‹ˆÙø.¹N'ßV÷J°ƒ„p%ü8e“Sÿ U7zöSğè|w>çÍÜêM‚z7,Yfñ¬ÖO5l¸‘:ß?¥o³xŠì}w-æş*º¥,t˜CC8Âµ.#eáûã5@ŸdC6Rİı}ƒ‹òq›ÜÃ­Y[r(Ì±T­Ì'
+ÒôXA†Â#\«=²ªÔ2Œà€/vtHÛaÂ>—–|`èõ%…ZÂó>íÜÌHö@eMl¿¥'4ÈÑ$ùÖPïÓ?y•®J¾yK¡¥t¼=‚’b£ù bJÀæÊ~Gu¦ï%­š
+½¨ÅZ¦DzÈz[¯ jÍµfñ#1iÊ“Ã’%Î>nà?$÷ó)Uu˜yÎª8·üÏÌ€ıé¸¦k§*ÃŒ„©=ú8Ö÷så¬ÜŞÖ(éAG-.•wé×\%ê“åÇJÔÚ€«9Æ†Ÿ Kal'_Eí*jb©›Õ™,ÙL·e¥µ!kË”„TŞõèÉ»Î£´ÜÒPÇY4õ^ªh©ÚTM/¹ÈF¹b¹VN¨*‡‰Ù~4Èà;ó(Jå÷SÉ	ŠÓDq-páaâ¼¿]EÎòĞ@z3æ¿Aè{3ØÀfÔx[È ÏûsĞ™¨{{—šr3Šy›+HÔ,H€®«Ä7%"œ[]Vd8iÌ'¡>û«GÜÄışîÌ¬«Às÷høà¿Ú€¨‡Tv8©IL êX7eòş=dú†ğPnój‰Û>ˆŒt}Ê#Ü•úßÂ;ÒúÓÀMş`6¾o@Ğ_ê ¶jÔ½<“}F±çP•!º$¨çèáOû¡éÓ
+{”,÷<rRÈL‰8ğSœ.õh¬zõÌ}Q&™É6€¸ğ)³¡Ë£:Z—’ü®Ê*8;<Ô]J9õâ	Ô¯?[C7ø:pØ±|î¬“Iç.Ÿn‡³jƒ|¾4²1jHÑ,UÌğoZ=Cá\Å~ÚçaNQ©U¨#PYA4­§¡Q«Á!†­æ¹hŞ¨—PªÌ;ëZpùÓãÊ=bò¦DÅ¹Â£ 9ú×¸úäÜmÕû]€Yã;—R$PÙBl…¯<Ø}ıX/(…;>òP;Ø%ƒ{&ì ©X}Ÿ}uA0è4˜2ñ™Ï÷)­H¤Æ¦¶·€b<Ğr©8§ÃÚr§šÄ©c:=,ïpb‚2¡•è4à*“åÜ¯kô¿£‹g±‘„®N`YêlÕ”5¿;æF¼‘¦ÀT9©/Ä¬RÖ{vPæã…­êÑ¸†2çd¾Uò·vñÅÑN³™_ĞÚnñŒ}<yqÒW}Ò±ç¾tWMŠ6¨w÷1kš³ŞO®\üª÷Îë¢å4ñC~¿§7úÃ*Š!ÙºÿĞ¾U}î£·¶3eUéUŠ5;ú~´õ[$Î”VøxE¼Ñr*^õh¸…0~[qÎF} áNÙ>¢zfåÆ!†M_}äĞ¢§x£7¡Èò*ß1pÑF^?¬,[‹ZóNÌëpx¹bÒ\ğgÂÿ–UÑÛ[‘Ğ¢±ìw|ŠeAôÒ¶’c´ôÂUÛŒq˜å›t¹Æ²{¸ˆû »nx‘]MüÕM	¨èpÓè)Î6¾M¤ ·j8æ<õa—§­Ës?ú
+x¿Á§s‚ı¥ª VÇƒuçš“y ããèúÉ5¸»7~úKÍ0‚Í?Fäníl†B]Æ™Ä¢ïäss/áş¤×ÓÊV¶KÍqÍ>ôlƒ
+ÛhU£°NcàÁºy² º°QÌu
+w+ù‰ùM³İc~I_\$æçğ„-wÜdê‰k{I/uÇ>3A¹l¿¿ª d³,0@
+èJÍŞàÌOŒšW3Ó<÷j¡ˆÜ0zÓ‡²i—¯UèLú¦C±œŞÌ*ig„ÀxXü=õ?}ì¤¾1 †VROev	3µÑ´¹”ŠvÀlîÌ—V•Å@“æøÑò¤JxŒº¬‰zàŠs½Q¹¤G?øv<ÆZŠÒ…1ˆÕ¢Ş´Â'0éi˜—xG&4¬İòzëæàn¯;{T2½‰NWò²ãMr÷Œ!äÈ¯‚À¡²uS™ŞéªmÓT¯Ò^p1„S*.fÚNÀÉÌURèØøªíjnôÃ:*dú£Şz*ŸìÙc­´w š’×¼ŠfÏN}€İ·D˜9¯f@=ã±ÅÀ^àŠ#ˆ¢tÿ)xûl0Y˜©ûÌ†|¦„{fŠs ûXŞWñäûß¸ß{œhş®_ÚÔÿÎreüØm–…Ype²œAÿİFšÆÓ3ë˜¸ñ«8”VìjÙ,@ı“°,@OÒŒúKÀö$‘ÙR¯­›$‰Œ•{áÆ—Sr¡@³Lû§*g®ŸDytÊ®©ú·ìïILÉgoØŠú¼î+œ‘‘áúóo6u"Â¥¶¡\Ú+²©ôClh¬W–ÆÑF›'¼ä
+ÿb=CÆ¡~lËGÔ3- ¦Ñ¿UMÓü$åÍºoÕ0oW%zîÎ½Ñ»qÛrğŸÇHüßÂÓ„‡íµzl>Í!M–qÇÛ)ø;às>*ëzƒ\	I•ó–VÜ”ÖÂ‰1-°%Êüóè.Uc |€ĞM<¤Šo™YhÛ’¸ÍÒh¡6_o»…µÌHQ¼­èø]	­™ÌŠ7Ck
+)%tÜ¬âêŞË’ˆUƒìCIÍäctoÊÏÆà„Öº? Ö¡9ìá"/w&Â3ª_?¡ÖÕã™èì¤ê¦äm"e?”mTƒ¨[¢jUYLF¦ Q°sg›/ˆ²ümÛ¶ÕærptÒı}×6Ršåşãº^Âär)=½ğæ€£õm!	§H4ıƒÈ§2JÄ<“X1GÌ/ùq«=—ôá¤M¢ãV ™Éôƒ_¬(~†œEÈÂGd«Ç œS¹ÆlÉr%d„@Rq].Û! €÷	öƒêÅV?Ëìè,lêÓtê¢ó C»>™A¢/ew2ÕÈ½HÈŒ©°›n’RI$˜š^\Í¢‘J¸’*æ?ş5d(,4€àRh×Ú€$Şî-huª¢8«BèAâòg¥Úı”‰È´€¶ÉD“hˆ#÷}ÒÆ‚ğ¶©ÑÑ¢ÜLÇæÊ m±ÊõØXF¨ß³şß¸§}½ÉsH2Œæ ¨)Ö	{ïïxÆÉ§øY*Z#lQjâÈ·í:`ŒYŠ4»É;îÜTö§ú÷Å2: ˆ÷‹
+T/wå…h|Ù›wu2ÀÆÚ2q“&!¸dw¼ãÀŞÎ]ÔÅN4]{`›sX¸ø…şPu AÚn¤%¿k›ÛÆ%Ô0S™ôxeÅ‹Eİoò•2%£çÄ~NSü|9ÄQóıbj à%‰O;6¤¼©²Ê¾@—š¡ôoO4şÀ†P=O7ÄHÑ…ŞAˆ¨PU0Ü·ÀLájÿ¾÷ãËe{Ş 
+6MEØ I_WÉôR\øB|œƒ|©¥ä–šÛœR‰”£áõäÓº×Â¢dm¿•ç´‘w|ytwj­ášÔ‘HşÏªã+¬*eÔûæ°I~z®ÿü
+§ğóß¾½‘áV8ƒúÛí‡¨ÍÁIü@ûß€<õ«8y¼Ğ× Ä¢f <O-îœR1Q¥·Iú{oÄëª'o(ÎIÂô8E‰bêdKkiÃ9äÿŠdıWašk¨¸ìà¤Ë‰H©j±q¨1Dw
+³…~ŒU¥[<c—1²ıµöØBĞá#i†SA§ÎZ#‚ƒ{†ÆDµÑ]Ğî·;Óçõ÷£.sw²66µŸàÚluC¶Ny†ÒÜPÃÕ…3ôÔg³x 9ù.<Â¿µnáÀ‡¡sk­vGtô‹; ¾ òĞÖ™é¯òAÙn?Å}lŠá—G´w=aè®?;^¡ûyÛäU¸êPÊg‚ıš¢ade¿f9ißssC€Q7FÜ°­Ms¾,ÌT«» æ<“¦ªÁeJÄ” Õ·v+Ô.LÂrN6~9®Ë—ÆÑÌi	HˆÒK½&¼†Ã§¯ôì8^EØt‰®áy0Ê%•R'ğ	x¡XR¾^Úgg,Šñ€¶†§i<aîy[T6oâ™ü´ÄĞ¹—a0’:m‹şo8@Ç{¥Dm`(zPÃ4z#ß"Ø¼îİŞ'Hì\?"å4,şŠ
+N“á«­„ˆÎìÌíÎTÎ¦Û”2 `Íî~4!«"­ç×±n¯“ ÷_SªÍ—˜Üy!CÕe9$7¬ØgB© &ü$\üjf6^8£‚€w<?Íju·7°* zšc$3Óµ*)«å| ƒN³J!kWşiÎ:µ2@Î´FT–ÕSA‹&Dòì
+"²_•‘lçõ:\8°Ó’vÂò¬& êì,gMÍğ·6Øjre¦¡†|—±«^"-Å|ª]f‰ªµ›Å(«7dùˆŸeuM¿ùŠ¢eSJéö®W¯—ëQàf™Ê'BŸRËÛN‚Ò°»×[i*‰~é‰võyÑ“T]¬vKÏØÊJûèF¹€FI÷ÚÏÂ§¬ş­õ¶Je…,n å”3S™Ïá+XPÌg·•ûU°İÀ¥hÌ[‚¼Tw»ò¿HØ»‘“ƒÊëOReòyáõÃ¡ñ/"e„ÙFK÷4¼ Ï°¢¹†$š„ÍÃ†]*œz[MGßM ıUP²6ÑDòÏ¬ZÌØkÜ¬ÿÇÜïEMùFê*ÏB’bÛÂ¶ò¦7¼·Ôø’6ğÌ“N–§™tá´¼ì(8îeqØÖ¤)…¯{²µ“]_œ_¬îé†ú§Ym)T…ŞrO¡|dßÖŠ;Óq½@ÊaËÅV™+-CüHüÓÄr¦£R$Twj9i½büs®Æo›˜%²XI×ÓyÁA"hÈ›ªS^†WÃ÷Å °ç§VÖÌ_Ù hào3ëı»•(?ã§²£‹^8¹MÜîk¦v$ËU~zPF™òÈ³úT’q5i?ó±-Úd†SìĞòı–­3M?éÑˆ$JWÌ›ì	 ´ìOßÒ®¡QÔu¯@pAK™Uá9 ˆÿo9ääd«‚·?ï¬6ÙeahKa‰ìSò5ÈÆ&ÆÚE$aÈòA÷%øÎr÷ÑÇšû×ŒiW)zXë¨méè›‰ÊÆÊLHPEC” tÌYÙğ³&¯ÎhÓWBì’‘‚Ñìåv“ŸÃq8g«
+®”³¦)u!£ë*Œ´kçÑ–à1Ú>f"1º±˜<¿ÍmÆä“¯,É¯“ÑÊ^ˆ¥ˆ©2’ÙÇ"î¥¾Zbµæ/º–À’R79›YKÎ”4ÿP$ÇğÅo#5vü3WĞˆòg˜ş è½†ÚJ¤?Ï´ÑYÖğ†ÿñT³9“«ä°íšN›íÃàIjŞüÕÎYÈÁŞ÷j<å[‰`§\‰Hñ\LÚö È’…°JÔ
+àéĞÙ:
+øwa™ÏÖ_Úª‡L/ÛÇ_®8r·¼…h¶^qÃög`%¬Æ‚V¡³îò»æ×¡şí¼M&ñr Œ†¶1{w¹¾Ù“§…¥¦5vš0†U3šIÖµ§cdu74µÛ8ÒíOny/ Î7]ïlŞÏ„3ô=z¿¥pÑ0SÏL°én÷ğ@Óã˜ÌÓác}üÉä°K]?~_¡-¢"ZI‰¾Jœ`mÚ¸"	t9ï¦œı9—Œ Û¾‚(y u¦}õj¬ŒœÿêwJYHj›ˆç™.ĞfjÕx  |Ä„_ı kóm’×ïå!4GzáS‰¾å =r:¦F–H{¤Ì½9“vƒ›Ì)1a™ü£Jô-À±C­~VÄSSô¸rå¼‚Ø¼³¦È^õòá+³IŸ*÷Mz˜{{íomXv¦É¥„„ÕdYMâ(ÊW(‚ZJŸŠ}ÕÏeOmíwWı¶Ù[Cóf´wI½ˆ¡ ·AnZĞ}|y2Ï¡:]75ófä,ß¹9gÿ¾‹êÍ~¾;>C³ïÀ«*¡ÊHìNsé9¯Ú,h+0õ¡@•Ñ¡^*­Woâ–}êåŒ¦Ôt{ÿÑtîiû·h]'dO ÍÈk¸^jÑ_h†DØ @kÄ¢0 ››ÃfÈ¥ŠõBóFˆ9üWÆì_¾ã]Ÿ¯8-Qï>xÚ"« ¡8sÓ•	4éÍŞ€ß¾ÒŠ5=¡±ÁÓµŒÎÁ[Q	£ }àDŸ:ë°—™è–öûe»l™ò1J¯¤ıû¯Ù_ŞG·8’ˆıÏ­¹b™>Šdx/ãÄ|6À>k›P•¯.E¨2Ï9Kˆ6×3Rla»¹··S;÷I„CË¥_ŸÂ Îv†ËnI×‚‡HrÈæ;€ŞWGLÖ©;ø­eÛÚW¼ÎãIÂ‰ù0ÿÛÊÊ:Sz×ÀI–Úà‡¦€Å<x´D"àW"?})ƒY<Õ_æü·/k°—¿Ä¬Á7`‚†hô EJ…š·Î8fn½
+êx	6b_ØOTß°åû9N’ìyZ©™Ï®óğáı¨t¢¯4\•JòF-ÊÎãÃú¡%qQ/Cùôj×¶¤7,¥Û,¨]@şÈH±ÊÕ¯QŠ@¿öM!½ŸÏŒ®#1¾hŠÏ¯Ğ“Ì@ı’ÇĞªdX<Ş"ğ›˜J"J,£c“dˆSŸßvÏVL“r9#Í¬)¸qƒ[âı .&«+,³‡ÿC'dĞ¡ÃXiÏçRĞXâÙdœòš¹hÜüX(­š€ô‘³(cÍá³¶!dï$ Ï—“âu„Ú‹ëX#Ûôúnıˆ~ØË2Õ‘hˆğ)&•Åş!/¹£®ºtpZf˜änªÌÒHC=Û7Rnœ¡›˜èá¿ç_êó±?J|	¡r‹)è@,%ôOJ–õé1V8d«¤òü0¸”¸3h{’œ"£ê‰¨%˜~L—‹HŞËGQ’ƒ­—Ö)N7"g“Ğ×ù§+a«àØkNÑoªO­òµ²ÏnîÊëMá2^µš¬kƒ¶ä™JT†¸è:~OO/T×ï(Pby$ı#P@`ñÊÕuBs¡n–µï1¥¤ÇY•½’‚¤zoî±ªµ@4 €$?}Z€Bş@ÔÀ|¶É€R•’?‹kªä4[[&Ğº§’°tŞL&"²çÏéÜCFàkz#GŸXW€Ş\t8ğoc>mÉ‡Ìñ®P^1ráX}ƒÑ—
+ÀçŠáË—˜)R*ÃïR•6HŞ:¾:œ‹]NDŞ`xu:^ç¦8æ‚(ntºªˆfœWïEW_ù-¸Ûe8ùò~D)zøÙÀÙ&çWÕa"É¿Wóµi«ï6At¿ñ@\,Ş_lj¨®È«(Y1U®¨rİ>Z³–×’Ï	^À}ƒÆÄİØèHºøe§¾dCDøh¢í¼»CğÀ(Î*Ù ÖcÓTóÖbå«D	"œEğ-ºJ˜¸‚‘	~ÚQÇ „6$µd
+x`xqZÇD˜Üw ø0ªˆºCCu‡je;İ—a@
+/¾;îeê]–läKKYWŠRÖ‚Tî
+FÿıX¨qÌÉ…Muçu
+p*Ë!ò«F¹Øv£“ë¨YúÛóL{3éebaxâÜÿÔÂmşvüAÆb»I“aG[ghßf4‰ùÚ5Ü3\àåF/ ìàœNGŞzÓ£õ–jF5¹q_Ìİ+—fØJg˜dÅk(‡a‡“‰w:ˆhõ)ğ¥ ¨—5Íú¥´SeeY­O˜-
+_)¡¦š€†K_¦ÆvÅ½¡Ì(—M\ù²œ‘ÿ’Ñx_Fè¶Â3oË9=,”˜ğxïÜÙ4U”ÂWm]ÄÑn\¸¥‰Zì§ŞV)Ä>ë<.ˆOÜº[óyØh¥(Ù{Uô«¸Y:ø+g?ò£üã5JxtêU½+¥™Òû~LAä#ÙâÛß|Oµ?6mæ­§Ö»›(ú©
+©_Fıé¼`oØòy¢§àïèÜ‡ ıŞ¿Úı¬1úT4QaFù K=¬^Ş«¶ã[™6}pÉ©èKex¼ôæw’ 0íU{F½f©î„Õ„İT xí€™R'?ê†xåúZ–WhÎgş.ÿZµôX=<>K–Q=‹xjhÈä¦ õÕhHªÌ.³jRÖíÉ6Ÿ´‘ñŠ˜_ Æm‡l¹Štè"Â;½ó üt£ÙA/,¿Î™Òı3@‡áäBM™?âƒ¬}Ü[-íK]àÌ!J´¤Å­Mòw^ğ¸«¾‚=²‡İX™A÷ PŞç›OÆIà;Œ„SÒçHıŠ3&’€BëLOiúJ4îlöÂ4¶¾À9œ²g§²zÛÓe§3ÂòŠ"ËÉ~vÖ^BÆ¶ä.ÛÓ¨íCÑÓçÃ‘^ü=%6µR†ÖÊù<àOdfÆ+¢…åÃgÙ~x‡šÕ˜q;»WŠ§¦|…Ò>ËÈÜìùKve†)I:ò £^8„úcÃÚqØ(¢ıS€AŒAøÌwQæáŠ.pëX›®ÀÒm½Óéÿòú‚›öyD­“¿p´“ÖlL©ä]g-=‘°<N¾çÇİZôµÊµ@"T€İò2	rˆ÷Ü}Õ+ú½Ø£r£/™z¶næ~âhÜ£Eÿ 8ˆ4I?CÔæ0¢ÁœşÊòU³mrn¤²=IQN¯{ÜD´ğN¹/ŒôÓ©3ÃîG’ÎÀ~ğJ0Äí¯Ã †nœÄ“có ³ìjŒ T›ÛA:ÌfEØ¦pp˜Ûñg«Éš²ÊB |«V.ıä¨2¬*Ç‹[éq+â¹ú>Lã™œj““oáô`€ÏpŠÖ“4êİó¡ĞîÍu0eôŒ1o€@Éò×D+0Êï&á5õŒ)9p_ısõÆSKÔ@Z¹÷«|sén`ÑĞX»S´(p6©'˜Ÿ- î÷åjª‹Ş·ÎÅvk<¬Z8pƒ‚6)‚X»îßâ®º›’¸ÜıŸŞ8N·†¡^’ìÂ·"_©h²)¨G@äÀg•Ü¨mp{?¯Ëc‹Â¿-Ä­FMcÜâkSeT‰>âÂÒåæµğ&¨2²K.d·´k†‰£NÇğš”¯Ñ³e‹Å€µùV§Î#1ÀüÏaPD›Ü¡D£duT/ÍHfÁG%-zMÕV‡^Nà™v&xsí‘ó/ ç€}^Ö	¹Šl­W¼ë«YRã€(¸‰aHc¿‰•m¼ feïå}™Ú°RØsµ³íí1ÛÍ›WÃÒ/LÚö.RÅ<^÷äÕùNiØ¥ñy¯¨féf0åÕˆg°¶ô4u~cQsœ!³ûB_’H˜CÎpî|&Ù”—İK‡/RP1`ùæ¢®š{Ÿ}†¾´ˆA³Q]´_Ñ3°RY£—Î›	}.îÂvöjUş?¯¦:MÍ–7<Be)G»ÿš˜ 4AÈ¸©B :”‘["Í»³9	ò“µ­ãÒJñÆÑõ·i§¹~æÿZ)FÇG5íiŠ€+[sóÊ’7„‡ŒÏ«½A“ëóÈkÁÇêé¤Âiœ(:ŒáhÑ«Ö3 éŸ?`ÊÎÍôyçócq"¨ìC÷¹jPØ1Šy¸DñØ×!×²$¦Åò6
+ZŠt‚ı…Nş~æWj>¿DQ™Ö§–~!†×uÑØ3ª~eÅ·¶…ı=R¿Où«\P:Å1EıDŸÔ­£Â’ÕJaP"Ë„s.ÃØ%^ò’aJ¿¡£ Lì3ZÓµ öÛLœ#P æzŞqâem]‘ $ò?Àälİ)šÆ'È3h0NeÍÎ Ñ'r±išrLh-?ä'*??4£ç"•|¥ÍJ^wûûñÊÃöÀİŠ¥]-ÖøÔ†x4TªçB°æ”Ô| •[ÿº!*ñ‡~(–Ä¯…Ï`i‰†AbÑËP#H
+ÜsĞ¢ÕÏ°ëõ0òğ£ÀS@J¨çË?¬?Àp5ÑÜ’OÍtÌÑeˆºaUTMb¥”Æ+4'pàk¹ş0·Å@ì·/Í'b-EjĞ'ìÁâ¢Ÿ¢Æ›­î©«ô´hùekI'ô¢s27ml¾rğ®`’+!,'Å–/ã†õnêKaÚÖËøO
+•6^ÎãÉy˜*çï“s‘Rûç-ÕéVJL†¢G‹;›* VÂÅò7ò_-ƒ[ú•±¹°r.f7Ş <Ã½BI\D{à„lóm1_dTXR[éô…HdŞ¥N@b`„¢(ğO»Ùİt G {l‹˜ÒÏ…¿†q­#L}>­I˜gĞ*/'".ŠßB[wŒÔÚğ–K3Ï.§³Éá™2²ãs·U*ìÆY¨èÊˆÄ!“*kwÖ1%1¨,#}ÿÛë‡Õµœ^c5*$-äüŸ§œÎé"³|«İ{U‰­ù‹Qsß1ò‰4«ga¤c2ˆÁİ{íÎ;‹Êq8…;{)ç8,øÜŒä´„ÜôŞÑóØ`Q<uÌıµÚïìªsµc¤4š¨<§!%	Õ
+ 3zL˜PÇ}W“É”3r&0µa€<RúL5¼áœ•âöî$øáYõ€òÿØgM5£g+´Ñ:ûã@Şk‚¯ì–CÇPUQ<ØQ¢—ªÛ»`ÅZÔÃƒ ÔàS´¨bù¸åVë»ÜüÙà9ÖÔõƒüA0‰=k&¾¨ß*G|¿q*s€™ÆáƒCáü¤n"­è¡ˆ£Ùbÿí™…í†œ‹ªwY7–¼p$Ê|	(¥7uïò‡¸aä&—ã¬ìäz< JËºè‘æzj˜a5pØXŸwı·ú¹G-œÜğ“ñ·¶m§cJ…«i´	>o¬üŠT±ˆr’,…÷nz1+ãÍßà2l«B†!.Ã<îx¾¢$ÔhQ„ÄÚ¤”A$¥mÒ ¢’Í¾„fc|y™ØøM8(oš×ê:!”şğÖPœ’á8İ*·7ÑÉTÑ5ÁRKó£æjhÛuˆ¥©]ÈÌœÍI×©kã¤â:_IŞäãÖø®”cPÒƒ±yGè ç©G0›ßÕŸûÏß­^×Ò‘R;e¿#”ŠY×šmOÆ»`M€@f)Ğcï\®ŸSêxíqp)õäC2Ø&Ç¾<“H÷3"~ùpC4éìÊ?œr\‹õLš2“ŞI1‹;
+N2Wqğ½L[½Hõ!/ºŞ“TÒÛğ/Y)uwe^©E °{Y¥(¼üÊŠev²Ê”$Ó‡‚ûl­\ıàöëÆRvPk§¼8¬zÍ9øMcœË4¹Îã´=å²k™šM©óí Brb=W^ob‡‡iÉGPGTæŸ5;O5ÃPùh<Q¶ô5WQÃ¼¡ê[Çù¢.;vœ9¿_ÙÒµñ*Ig
+B §/Âíœc˜óãO:½›Â”—M÷âÖ™!QnBRåYæù
+Y¿kõW¦NAuwyÙ×ØµoÅ0y“±A<>÷‡B/Ó€çİµ3ñbÉ5ş$,ÎÁî.[z´<…av6VíÂ>`È’V!4íïŠ¡G‹[#îè×…È±½ZÓ)ØODÊİéQé-c3õoá
+Â3×tè)ãAb»Äw‘nÛ@Ä@•ØäåÉ€5vM$2åd–“Q9­÷ÒüN"á¬gkï:@MºF›·ã#ùÇ{î“|u¿&ğş´#ÁœşA¼ê¹r`/D½l<Oİ&Òæ&²n×}E•¤şQà<*jÄ›£\­K³K¶ìl{-Å¸ê=ŠãÒ^6>Õ”j	£ş±Ëùˆs"'ï@ç w	‹w @sf¾s»ì6EÕÓ ’í‰›kq{e»Û4²CÃ 7À,REè÷v×1¢ÿ„ÆjsXê`ã_um+d]¯Iëxtu‡½Ã´´n¦*¯!ey“ìÀÎ±‰ãvK·¥•õï5[W‡‘,~,Lrms³ûÔ¥À÷§4äíyn¤&Øë È¡ËÏ…|o ÀÎH\0ˆ Óz¨á\Ú<‘Ówã€§“i5·´Ÿ¡âœ:Xæœ¦é©´ÓÅ‡
+‘^_İ	3U˜“„éşáÙ7Vs;ó¸[«.Š:¤Âè§ğ¦Æ¢K)¬öR»î¤KìúëNÂŸyŞ Z„È‡|¾Eæ@ù1oNÅÎßO#sÉâ¢dyëÑøŒœÃ)&T²FYu‚¤‘ûÁ/‘1–#Ã¬¼¶—›jî>³©¾%ál¯t9[„mÛ}r~¹q­²®ŸS’zñC_ç7ƒqğtë´_IIšÓÒ£?Ïéñ„ õ‡é›'ÆWùnrz¤@n“ñ+Ë7¾¶0z§™=Š×:Ô\Ó•–ŸO}àâ|Şìˆ;Oî™.÷f5÷}úÇ8TŞÔ§Š¡ß÷ˆl¿ITàa»úşâ°JT[Ôœ÷S:AÚ;ËÈ¶J* #ÛÙ†µœ@}hpP½$ó„òmüõš|å7œ£'‘dh{ÇhºDíß§Îœ+Ù|ãk¨Óûı e¹wf%ÕI½>
+bÛÁaXîZ#pš¹Øš³2‰OöõT’ ?uµ¼\Â}-Ñ	Ãš_Wlî$Ø±>„Jpÿî‡ÿXEÔàº0¢ñ"-'‚K™¥¥£vZ7œM~jJ¾×,ºéçÜÉ‰M‹Íñ› nİ¹Já’Cİ±˜ç[+¿m ,NèYÉ™Êá£jùlZ®ÀD7f…¹iHÔ¶±¬ÈÓ`.hÌ`z¢¨ƒ/ã"^XâÔ´¯,âY–2àñmEa‚¾ÜEv”Vîõ8é±Á”å#ˆ¼t\‘ˆ˜Áq)4*jÀ_Õó/dw0¾<òçr?=1¿æ	Î–Ú„sT–aÿ 6Ê@Mk®"ƒ³6–Í¬E¤§Øt:ÄÌı‡ê)¨Ğµ€ ‹‘ìí¾àĞŒ7fV^S)ŸÉ‚MH2Ê'úr;£‚À–\á‘üøÎ³¬–q8­WÍ˜¸®9ß‘ØltûBİïÿªË§ú
+™E$odl²­2]å[“y÷B¬é.µÙõ_Es4k†è•bvóL¤‘ÛwzìƒÒÕò±¡`èKé¬;wì]e…ÉË¶z òCĞ’ÆŠ4¡vQDuÊ´z|éhØeù¦ëO; ÎåÆ}vÏÙósª[ÍV€†öÌĞ…B)Zw<“+Ê p9+ÍÌŞäeô•¿×öŒ¥grc@ ˆÁ[Š>j$°kíy©É9L@B+=
+UÕíUXÜyæÓTÄ}Æ«ª\i³(¥3"p±½³ŞÑ¸JÄ{@:"Æ/*ÎT˜‹„Y0$eÏÙGfÉ<™d˜QÔ¼Š¢®¨•Y˜wOkÖ|/ÑØ(óì–5ÊÀÙŒl®‰úvBø&¥ÚÈóbÛÊ–‹ÎÌ§ˆÂÓ2smö¸£curÜÔÓ»(œ\ëç	h% olCåÙ)Æ”j\§8…Ş\ğmKDuÊ‘ibèÜQìñŠ›¬&8œîÉQ®âGï—ñ“	‹Š*ÑuÚMÏ-pÈhm§!„ØÔ¤Kõ!vCÿ'Ã^-E¦ŠY²¾V
+I¿‰˜¤‡ ÊªŞmxkTù‡xòÏôPôÛØŒw_ÜnìŒ­qÍ/9\Ôu—hÿÜc}ÕGşjÂøò€úU¯Ä@}°õ®³é’çßöÀCÆ©Û¯÷'4Œb¥{EÁåÔ<ÉÓÁSYÃ4ÜãdXGKCK_Æİù>1 Š­aì¶rÄG˜¶VôPw	4ÃtA.éa{ï…Ÿ³¸á_$ôKÁ,Àß8ª4çıwFAºÏÙÊHÂãEÙÜŠUn•óßócšĞ
+Notk:0r9‚C79Yı½§CæOÆguÛ<ÏP¬İ=;-æ¾¶Z×}§.;º¢8kÉÿª³å
+–]
+QEs6šw¯‡è˜„C§Y°8
+$ŸlÀšääİ•¯YÄµq np³eŠ’œ©Ö»+ÁgÕ~õOêvy3;2ÛjqsôçÛQYvM«ìo–÷ NÇ’SÀÎqÈ{“­F¹?÷‘ö¤ƒ¯ÿGşÑé.må4×	)UJlk•ìĞ££ÓnûY¦’jéÔÌ£“‘ÍP™•¯4ş	øÿú€éâêî0`4wÒ›Œ»K2%Q8è‘o}[mpTÑ¾¤›¼H¨ïïWYgfcJø3õ×öZ"&VVyüûåÉ]íViúö åy•)—Ú':„Ó%$VĞò…¬ şM¢óºÕ«*\	*’tñÊeã/†<+–ÏõQÇKÍk´(·Îş-Lñõ(áhŒyb·xÒœçsÅ<.‡€ù6&iehğ%uh$ˆkœ;„U™x„fH‚’QC=sØ.¾nôYÊ=Û…:$4p¸Ÿj–³ÿT–$º³èö°îl4û‰şR}Ø w®‰$vÿ)ºOã˜«¬ÿÈ°S*…ì1@Èaz·v’äˆùI
+·1·l*ÛehyD;ò›fgdx–zI£´ÓJÅXQ¸‡‹ÿ ìÙÌ±ÆOLê<çwğóÏt÷:öp3¤¬f¹UsIÊÅ yŞ Iã!
+Q<°ººã”Nf+ˆáıWj·I¦ò@S¶P¤À# «î{½%±Ğê“»4î'¾–·5Dym¿óÀÒ*5¶Ê¨RYÑu¨¿&@ô”;‰ûIÆê³…;ÄÚuèd©İåÑ……¸Fµù$¥¸ªœ¤Ğ+µÛb¦Öë÷bÅŸXğ¬i0½©eVœì‹
+i,H“D;æˆ±DˆÔL±»‹2Šc=«2]"ÍY™-_½šõa¾¸õ¡Q"¶Ê™`«á)%ä„#­æêA.7ŞY,èœ˜‰mÚÕ1L‡±Z>ØMZĞë÷ <ç-A+%,@ağ·7‹•§’eˆ×áİgÑ‡(Z8O]8îó…!VQ™âø<ó‘0R¹AVàõÌËn±ÊÀCö¹çğhlÓb´®˜9Œ'ÂÿÂš~÷Ù7›åäÓ{jâ<Ÿ‘rtR{ ½ãVFLo•ÿö¤o£x%œ‡ØïÔ×¤ÿ¼Õ×ÏDĞş¢VûsB	³ÊÀ«T¯Õœá]1<ò"G¿¶‹§aš²ag`ªÄú5±Z$om¹°îs
+¼ƒÿtç‚´°öŒR×RfÎFàã5Cf}%ŸT[õkÛ/lë97ÿ±E´NcÑ‘TI€~KŒ"¸Êh¨1Ÿ¢MEN9cáÚVó‰ÅÌ¤k˜¯bš1F®è²ŞE2'*ŸëÇ,>i)$ÃÜì_ˆÄQs{ÿ¿ËÖ³Şıçú‹/Lî\T©ËšËÏ¯CGÙä¡¨Eû;Àqôï) @FAìÎˆeö&ñacWÓSVh#VÚgÇS9s&ÿÜ³‰Ñù™¯ò±&^B|XûêŞaf€1Sç˜2bÏ-1Lõ`@æïï‰8QF%Ád³±ö’‡ÜúŠ›Øœ;T£k”z¶Eˆ›¤}qw¤âÄë–T2 ÉF'|£^D#22PŒšñ<i!gÇNZLLÔòUlÍà?/„r|;ë­0ïÅ*§™‡ñßpŸ{vŞšX"ÄšÔkr»õ İá‹D´èÁK†Û–Z.Û¿âÙı'¥a°¥5éåÜõ$~1gjëGÖ¿¶«”³‰FZy¬Y”Q¬ƒ=Ÿıö<‡%U§Ââ2è°•†BHUa°«z
+4%Ÿ²“¾*ièfç7ÈçÃeìáµ¾mM\Ë«TXÈ‡;(Ck’-º²}y¦G¯@_ÕÓÖòö^ÑæÆb¯šÅ®Ã¦ä·t\±5Wny”àÄÚÒ•¬xÔ2ø?fwEB…ãÍqå4	±Têã–AÅÙ]‘;H@¹`4—¨mc¾PıâŠ/·¬4uÅz‚@ EXIF~   Exif  MM *                  J       R(       ‡i       Z       H      H           2       w    
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: binary
+Content-Location: https://miro.medium.com/v2/resize:fill:176:176/2*ZVXOu-DrSscIuko3_8FztA.jpeg
+
+ÿØÿá ¼Exif  II*                V       ^   (              i‡    f       H      H            0210‘           0100     ÿÿ       °        °       ÿÛ C 
+
+
+""$$6*&&*6>424>LDDL_Z_||§ÿÛ C
+
+
+""$$6*&&*6>424>LDDL_Z_||§ÿÀ  ° °" ÿÄ                ÿÄ <     !1AQ"aq2R‘¡B#3b±ÁSr²Ñc‚’áÿÄ              ÿÄ 1       !1AQqa‘"#2¡±BrÁÑRbcÿÚ   ? ÂõAo•«ZÊÂ9óêDOb¾õ_®‹©Äó»ªlR~Ï |«Œk´{›2ÜÏ½ì@ ôUoâŠÃOH­£õ‘)ÆrÌÙ,~~V+²ÖçÒšaŸLäT²ÙSèl¬J[€×Nn_¥±Ò`ÒîşîífuRĞï·÷øvöÅVº¢úÊşø\[DàUänòäüëœêîÓNÒÀŸ…~Uwy%Ó‚Á@…T`
+«ÊüÅnl:úÇ5z¤ÈŒ(A 
+ä~Ó–…
+ÄÌ‚‡Ê…
+!4;«»­3§.ôëÄgDXy\)ù
+Ï+¢kË©ãHåİğ«\õV<{7›$±¹~£0ÊÈW@¨‡¨ïõ‚4T*ÙD:¹İ¼wºu“5İ½¼(Y`|€c‰@¸ÎAöÅS+¢+Ë˜séJP“Ë/^õ[ ,­Ü]}eØò”¶v±Ş¥ãPâM:ÚßM[™ ÛrÖ¤Fî€0Çqã¹ê¡¨¤jèvªJÃsÄ£ğ¿_&ˆê—r.Ë‰=döGÍ[¸5Å$+—rKä÷?Z…ÇD|ºF5Z¡˜¹‰b	İ]@íB­ˆÂ«MXE{¨ì{±E­ùˆ=ª†x¨`{Ë1d8ò#€	V_Ê"…ÆæÚ02p=‡ES+‚…
+B
+(Q(P¡D ¡B…BÄ«lŞ?/¿ÖŸhb 3$Š¤¸`ŸŸT¯Oh’kz€·VôáE3ş,Ø ù5è'£ºj‘RÂ6Ú0]ÎæjS.tÆhÙ>“GK¡É
+Uég¼ó[[Â;Of öùàği–¶q–\2óñ/ÄJõ§ÒZ-µ¬“%¢’À…ÿ °ª1éİS+Kj‘8ÇÅdà`pk•ÔƒØËŸÃ…:Ÿ¸˜†1EŠ¸õ&…Œ†Kvg‡9÷ıê£cM#«("fåÄøœ«bBÒ±Fx®åQ8¡ŠV(QœsGJÁ¡ƒD#(P¢P¡BˆAB…
+!
+x¢b…
+<Q	¬}›‹t‚è¹,Ó(Ny`ƒË5¡Ã®YÃ«5£ê· ªïÚ°+ÅçcÜæ©ÿ f6C­\>â ´ˆ‘…ä#ø­zcªµôKsŠL(rAúàdVNr¾swõ÷«D¹>
+/¸<ÉŒÅq;]wƒŸ"³mjÇeÄª™ÛÛ¥”···ÙªaQ¶ğ	¯mªv.ì7lj¥j2â‡i'€óş¯i,
+ë.ò¬¤  ş Î&@Œ ù×§úËî½+{y}nÂéÓïpç{Ÿ€&0 ÇãÍy‚Wõ¶1Oé‰`xï0üMU]hÙ"ã@QàRÀ¥S“*7·åFœŠ<TÔ˜†”Í8©äLjj…
+Ì ¡]6v—7·PZÛDdšiFƒ¹fì9®­WH¾ÒnÍ­â"È7ÀáÆÇF¨Ü,çÒtÊÚvƒD×#(b…Læ
+(è„,QĞ£¢DÒzé{s}tè‹+íZ@ûğ¤<{9A9úÖõ£\ée›L¿áI¶Mç>ÎOœÖöql·šœöïmÁUeQ„|$Œy9¯H¢XØB ÿ –¡ñY:ù­Öz‘£ÄÀàn'L‘3Æ«z†°4çb,f»-ÂÛÅïOÍEê½s¤Y3"Ü	$ áâ'ö¤ôÀÔ5;Éu{¸Ú$”¶ˆ÷Áîçëâª
+z‘ÇólŠß„7?.Ó)ë½wZÖ})o-Ì	HŠ Ô÷$ì}ë9 {VÉöŒ¶6K¸×-ü.kô_óšÓÓsŠë¹sÄEjH»¥x4½§)	üæ–-Éş¶¦DBul;;y4j„óÅ0,ò3½©Áb‡úš§ŸI3¡cãñÜSª¨x¹Ç¸®uÓb8å¿z}4˜IÁû×@7üxJı
+S.×eü¬GìqI9Ÿ—½U|Bl?g–QYé²êæÑe½¸»v%ó„,0Î1ó$ò©={¢âM2îÊ+s­¬bææ`À-¸-¸ cŒçÏzºÉ ÅiÑV¶m8ílÃz c˜.ã'ÃÏæ–“im¥_ÙEzò[ÇyïDÂ7½œş<7|ÇY­ù…ï¿ÓÓãÓ¥Ç„/Pw{Ï)ƒìhêw]Ñ.4»¦Ì¶²»gÎàÈOÂ7~`;ƒPu¢¬óYñ»#
+ Ñ¨êûöy¡ÚjšÓÉ{Émi¨ñ¸Ê»±Â‚<8¨N¬K$êMU,¡X YÈXÔaTÎò®F@r®@¹ki².™5¬å@öï+Ôz*Xd^IézÆ£¤Ë$¶Súm"mnÈÎGj¾YZu–¼4««Æ•ìn®?QJü_arƒ°ï‚j…¤]ZYêv—Wv‹so É«÷÷ÇšŞôÓ¯™.:zímØs%„Ÿ2rD|’‡Ü)=A
+E $ÿ TÚğ¼>r¶ıA¦ü°i3Aé6·—vR‘ dïbv‚r[&®Ñ[%µ²¢à*ı¸õZ“ZØo®Âåæ·QëZ©Q#`d²pqßƒÈ¬'ªúß[×d’	î¶€ãî±øÿ ˜ßÔŠ_&ÊzôêcÚœé¥OĞzĞ P¿~’wí'©´‹ù-¬,œL`”´³¯ø`ãTÿ WÌö¬Õ¸R¼çÛÎ*=¹8…tØßMc6ôÁñ)ã#Îp~b´±*âP¢êyÌù_>Bí@ŸÚ8©úWrÚN#YM¼Ş›,›i8Î3ŒU·AÔ¾Ïå–?í¨1Üg’"œ¦sã­Óÿ Onã-g¼+¼‰ŞŠ–dïÅqñ@>1#ş¿èÎ—€|ì\üêb"	öäC&<‡ŸŠÎå¹¿>q[-î±ömhÌr`£8ävÁUö:ê²êÎ×¯Š&ˆÿ w†5ˆ;Â	p  3á@^İêF¬İ6oµIøıñıÌ4ëå1†”· 7úT¼5ü˜
+çüCù­Gş9èY..ÛHgŠÜÇË¼`9;²G=†0+²ãí¥ ]ŸÙ?‡$zq?ûW˜ş&O{€ÇˆÅ¨_´ò”ÃL?÷şãR}?e-ö·¦ÛÇµÌlÊ?"0f'ä ¦uk‹FæŞxİHHŞ0J±È?­nfzvQÕ'QëŞ c>Rü?MÇŸÚ«Èàc¿QÄç|Ÿ¤¿ê7ZŒObŒª’.‰ì‡ƒûU3¨ºC¥4*úå®îËEË}Ò#ÛÈÚ ÉûÕßPÔ!°¶iZXáV`	v	Éñ“ş+Ïzî£Ô÷:£ÂÎ°ZBeH¼0C“Ÿ2E ŠÅ€ºÌô958“O¿«J½ïç4­ìnô­2ÒIío d·pq)Ú	ïÛ¾jª~ËôØ™N‹zVSÏİå,è@üŒ`~¹ªGß¼7öÑÆáeYWÓrp±òFNæ·È"KÛÁwÒO/åü% í?¥C˜r¦§h4úİ2>DÕXê¼¡ØôÆµÓ]9tñ¦ë¹XÍ,È~Ö5;Pn äwlò¬=äy\ÊìYä%™$–ç5ë~±¿ŠË§ï”Q÷Wİç#ï^GQ…Qì ş)­),r1êHæfø®ÔM.$°Š­CÜõ‡Š2@¢<ŠGµ71åÛ¥:½4kk‹«¹²a$¨UNâ \0`r0*õcÓºF£"ê='¨ıÖá†^ÆRv>#~êGëU- ¡Õt¨o¨¬awRZVø9Æ‡ŸqŠ¶é?fWv·E¢êm=€`¡öäğ<r?zG/•nUùî;è4‹«åÀviP*ò%çBºÕ¡eşİ±h(™VwÚ­ß¶Wƒõõ‡.‰®\Ã´ú5»‘İçş“ÅzjÎ­Å-§Ôìî76C37ózã×:ZÏ©´æµ™ŠÌº@ËÂÇGSçÜUXryo}]¯Äsa®àØ=ŒòPÛğ;×DÑ´3Mº9‰F*qûR@­9æª¢…=éqË*GPÄd@8÷¦ÉËS qÅ6ÚI}n.ÖFˆ¸¨v“Ã>=êë©\O5Âtş™bw>œŞ—Äx”ùÿ ;y<U9­Ÿ¦´û>œÑ#Ô™V{ÛÕ‘ÏçMüyÂg,|œWKdÔ› j‡©ôœú&kúµŒGx¬Ã?æa¿v>Y8¨}D,××Â5áp€'<şÕgéÌ¯JÅ‰kXä-Œå„Àû«»¤tÕoÌ€˜^F–Aù€}¡Aÿ 694Ã8Ä±áD¤)É±W©”­;¦¡Õõİ!#]Ù‡/4àîCø‚œv$ğA¯B]Y)…c‰
+cá cô®~”Ó,´şŸÒVÚ%Ex„²`ctŒö>ığ3ÚPê|+‘"0…±Ïb>µŠÍuè&š-_©ë >éÄš]ìjĞ:¢_#ò±Ï«]5Ói77°¨I=y‰$‘‚p¬OŸâ­Ú†¡±umÓ†#¾GÖÔ=Qw=ÒÍ67÷^I+ÁsşQàæ¥U›€d»*Ó)`K§ß2à‡·™ƒÁø	Rí[gÙÖ­ezÊÛ…Ñ Ï-“ã±^]€ò––yNé’K9Éf?3Şµº{uÇÆ¼Çjc6-ëóœèõ>K›¦l?kZ—¨–ğÈrHæ\üQñ·ıë®«»ç8âş•rÃêxó\Àf§
+l@§¬¯Y›ÎÎÎ úBğix¤cí]•^NíKˆ?¨¢0wù¢¢^|Aµ$ÉÍW¤ú†;å’âÖâU ‘"Lç`ó”ÎÜ|ëhĞ5û{½=î¥h#HâvO‰NÜ) cå^m´–(´‹éY¥´‘\Ù9wcõ¨½BÚçH¸ºÓÑÃG“·$eP	ä6"0$ƒ\ÏOâ91é±éHVa—~½ôH©$3;J{ÈÌçêçwûĞÉ#ş´ŒÒ…?<±0p¹=üRÁo$}(½¾]©JT‚ççD'v—f—º•µ¼¯²&bÒ18Â ,yú
+·İëz®³xÉª°¢}ŞHUBÅ¸=‰ dùª|9$+uÑ¬´ŞšÑd’Q·Òìø³ÂyÚ=ÍYŒÚÍÃin¡ÜÉˆºjçDéİÃQ”İêC„T
+ªù}£á<üšÔúg§cÑ´xaõ¥‘‚–%°>&ì8š‰Òm$Ôl´9fpÛo¡˜¢çúaePßê}«A›vÀ‡ƒÉ'ëHj²–VBo›>ı„g=®¤zqÏišh·ñ¶cjÍƒğAã†9ı*ªµ˜Ï¥n¥e—jã¾*kÉ-4éf‘™=Ç `ù¬š^¢»‚ánm]£enWÖfSîlä©T·Ik0P%›®u¶‘WÔ`Îƒj£2‘Ç?şVA,¯,ŒíÜøö€Ò¤µ­^çWÔ%¼¸Ø°0ƒ
+ ğ**œÆ›T_X®WŞß(õ´Â˜&+¸G*¹áNqG,_]K•IĞà1,úgÎÃŠMY+‚ŸÉÀ9ÀúSâ°Àµ‡Éóÿ ŠspS¥¦IİDˆõ ñƒNRXdQ&LY4èBÊŒ&L2Ê`WŸ<wùÔUÜ×3¼òÍ$²67;±f;FÑÉöÉs€3Ûş´£"‘Ş¹E¡õ&7«Õ¾¥±“t˜• şÑşãaà÷÷ÿ Í+&‰Š7Ê›A®¢‘ğ{QøïLçšs4B:çtN1ÎŞ+ÚvºV„°ÚÈ¶öá\ ™W¹ã~y¯'l ŠõKØ_êg Ü´6w‘©ŒÍjçŸ˜4¬›Ä7Q¨Ş”
+Èh <ÍbÙbD´ôÂ„ämÀ¡çŒWEÔğF’Ló"Æ¼3’01îk*ÒµÛéúJYã¹€MojÊ»"Ê	ˆGä¬Nuõ¿C_À÷1—[$€ ³rÜgÜÕZ¶°6rmûqrÃ[‹?MıÅÏ3jİR·vì°Œ<ÛZCà``Ti&ÜNúÓE‰¢§×QQ&rİaR‡j*V*ÉÌ#È¦éÚC)ÏˆDÑŠ'Å8±&ˆC3Éı(Ô`~´ğ¦ış´BA¢/Š2xæ™'œ÷¢³E]÷×³¼m·£„ÃŒ‰³œŒ~ÕÁD 4TfŠˆAKVãÙ«eƒiye¨N&’9-¢…¶L’ˆùÏ×<T…&ê¿n4±ÅåÙ€½}Ğš”Sè¶@9û¬	m(aÁ(€d{‚?jó¦Ÿš7¦Nâ>'=Èµo}ÁÓğKœ´í$¤ùø›`ş#¥¼Eœ?‹p¨Ş†Îb;m7+½m(ë¡ÑålÁLÆ?YçõP+Vë9Hée˜sµìsÈ4"$×oçŠÖW°c$pÍıâ÷>jVñ­Í³ıáRH‘K°`Uì~Ô‹jƒœY6ô¢G©Ÿ¼ap2œ‰~ÇĞ<B…
+Ö™R‡jMD"¨Å¢B–)"—D ƒÜıiÁMddóD"Z‚§“NmğÅœ¬¼v¦ğk¿Úˆ(ò(„Áö¡]Í·¶ßØS.ª|B2Ÿ1ù‡úÕ¾Sîp\@±Nb–$iÆäÆ69Çmİ¾UOeÇš›W7zbÜıÏŒû—Zínõ’:Î·Õ@ÂÙøÏ\àŸ#èµM.ÎÓŠˆâ?ñÇtPÍšóV•w¥„º¬oqÈÌ@7Ä“ÛŠØõ´[+kC õåb@HD9ÜI“‚rOeëY~"2æ8±¨-ÔŸ”ÑĞ6<C#» 8iÖZŒ–W—3M+=“.Ã2çxäŒ„=êÔ¿iBİ6;g™ä‰¢c£`Ş1ş!8ùÖ±½c]ÕuHíîà”õNØ—áB®;ıûš‹rAF=1ô©ÁáÁBœ­dv!›[¸°Æµ}Ië"(P¡Z6
+0h¨Å‡F(¨è„P¥æ›¡D˜¿’ ƒr;Òvƒç4H-?ıÚÆ¸;‡=ÆŞ)¥Pc‚¿:!ÏµûÒ3@µ€æ’x B·qE°{Q“Í\ºO¦nµÛ}Q º†#n‘"FÈ#ôÕ1—«Bû7‘£¿Õ[{`X;ÎÚxıªCºavCDõ—é•[2+	©Ì½	&¼t‘wª-~ğîU¶ [h_AC¡j7:Äº=¸Y&ŠY#'€FH,sØqW¾‰}Téú–¨­=ÅÁ–Öİ˜3zK ’N_Æ¦mÒk-s¯nâŒ™şä¯Ä=a¸ÿ ÈRGS•*RUEvçşccM‰× À3şŞOø”¾¢èíKF‡EYçÒæâDG]Ãv÷gw©ù¾Ëu{x¦’KûONw}¡ÉÂxÔíö‹v=&é¬Ït†H]âgY9¦hÃGâìjÁö‹qak%ù¶ÕnSÄl³¸A#ü'#¿zŸˆÎ[®@I$1ÛéüN† efJ îÕ?ÿÙ
+------MultipartBoundary--lheSDKvCtleNd4QPJpjDUxbEeg6ZVLANevodnWfq4B------
